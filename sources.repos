@@ -1,25 +1,65 @@
 repositories:
-  dynamixel_motor:
+  moveit_resources:
     type: git
-    url: https://github.com/arebgun/dynamixel_motor
+    url: https://github.com/ros-planning/moveit_resources.git
     version: master
-  fetch_ros:
+  geometric_shapes:
     type: git
-    url: https://github.com/ZebraDevs/fetch_ros
-    version: ros1
-  ml_classifiers:
+    url: https://github.com/ros-planning/geometric_shapes.git
+    version: noetic-devel
+  srdfdom:
     type: git
-    url: https://github.com/sniekum/ml_classifiers
+    url: https://github.com/ros-planning/srdfdom
+    version: noetic-devel
+  moveit:
+    type: git
+    url: https://github.com/ros-planning/moveit.git
     version: master
-  people:
+  rviz_visual_tools:
     type: git
-    url: https://github.com/wg-perception/people
-    version: noetic
-  robot_calibration:
-    type: git
-    url: https://github.com/mikeferguson/robot_calibration
-    version: ros1
-  ros_emacs_utils:
-    type: git
-    url: https://github.com/code-iai/ros_emacs_utils
+    url: https://github.com/PickNikRobotics/rviz_visual_tools
     version: master
+  moveit_visual_tools:
+    type: git
+    url: https://github.com/ros-planning/moveit_visual_tools.git
+    version: master
+  moveit_tutorials:
+    type: git
+    url: https://github.com/ros-planning/moveit_tutorials.git
+    version: master
+  panda_moveit_config:
+    type: git
+    url: https://github.com/ros-planning/panda_moveit_config.git
+    version: noetic-devel
+  collada_urdf:
+    type: git
+    url: https://github.com/ros/collada_urdf.git
+    version: kinetic-devel
+  eigenpy:
+    type: git
+    url: https://github.com/stack-of-tasks/eigenpy.git
+    version: master
+  pybind11_catkin:
+    type: git
+    url: https://github.com/ipab-slmc/pybind11_catkin.git
+    version: master
+  ros_industrial_cmake_boilerplate:
+    type: git
+    url: https://github.com/ros-industrial/ros_industrial_cmake_boilerplate.git
+    version: master
+  opw_kinematics:
+    type: git
+    url: https://github.com/Jmeyer1292/opw_kinematics.git
+    version: master
+  moveit_opw_kinematics_plugin:
+    type: git
+    url: https://github.com/JeroenDM/moveit_opw_kinematics_plugin.git
+    version: noetic-devel
+  random_numbers:
+    type: git
+    url: https://github.com/ros-planning/random_numbers.git
+    version: master
+  warehouse_ros:
+    type: git
+    url: https://github.com/ros-planning/warehouse_ros.git
+    version: kinetic-devel
