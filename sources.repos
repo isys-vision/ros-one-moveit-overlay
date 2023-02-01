@@ -1,0 +1,25 @@
+repositories:
+  dynamixel_motor:
+    type: git
+    url: https://github.com/arebgun/dynamixel_motor
+    version: master
+  fetch_ros:
+    type: git
+    url: https://github.com/ZebraDevs/fetch_ros
+    version: ros1
+  ml_classifiers:
+    type: git
+    url: https://github.com/sniekum/ml_classifiers
+    version: master
+  people:
+    type: git
+    url: https://github.com/wg-perception/people
+    version: noetic
+  robot_calibration:
+    type: git
+    url: https://github.com/mikeferguson/robot_calibration
+    version: ros1
+  ros_emacs_utils:
+    type: git
+    url: https://github.com/code-iai/ros_emacs_utils
+    version: master
