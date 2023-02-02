@@ -63,5 +63,7 @@ repositories:
     type: git
     url: https://github.com/pantor/ruckig.git
     version: master
-
-    
+  franka_ros:
+    type: git
+    url: https://github.com/frankaemika/franka_ros.git
+    version: develop
