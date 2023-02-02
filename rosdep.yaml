@@ -1,0 +1,3 @@
+pybind11_catkin:
+  ubuntu:
+    - pybind11-dev
