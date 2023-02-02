@@ -39,10 +39,6 @@ repositories:
     type: git
     url: https://github.com/stack-of-tasks/eigenpy.git
     version: master
-  pybind11_catkin:
-    type: git
-    url: https://github.com/ipab-slmc/pybind11_catkin.git
-    version: master
   ros_industrial_cmake_boilerplate:
     type: git
     url: https://github.com/ros-industrial/ros_industrial_cmake_boilerplate.git
