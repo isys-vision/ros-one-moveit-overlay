@@ -33,8 +33,8 @@ repositories:
     version: noetic-devel
   collada_urdf:
     type: git
-    url: https://github.com/ros/collada_urdf.git
-    version: kinetic-devel
+    url: https://github.com/ros-o/collada_urdf.git
+    version: obese-devel
   eigenpy:
     type: git
     url: https://github.com/stack-of-tasks/eigenpy.git
