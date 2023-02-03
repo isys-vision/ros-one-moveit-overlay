@@ -1,0 +1,633 @@
+Package: ros-one-collada-parser-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 1.12.13-1-g4d944c2-2023.02.03.12.34
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-one-collada-parser
+Maintainer: Chris Lalancette <clalancette@osrfoundation.org>
+Installed-Size: 2206
+Depends: ros-one-collada-parser (= 1.12.13-1-g4d944c2-2023.02.03.12.34)
+Filename: ./ros-one-collada-parser-dbgsym_1.12.13-1-g4d944c2-2023.02.03.12.34_amd64.ddeb
+Size: 2106454
+MD5sum: 810e849a0bbec00c351d51865d7cebb3
+SHA1: ba611493465e18ac5cad1266f3824880c2535622
+SHA256: 6bdafce715276ed10511795281b6beac8959c8d287398ec8b711760bff62c53a
+SHA512: 934858905ec89b05f1e18c3fe563b06e6cfef5ae84128c2fd29b745bdbb57f0bdc4e9a54d24ba4efb30ddecc0e6cc18c4218c2770694207d3897cd04dd8ca085
+Description: debug symbols for ros-one-collada-parser
+Build-Ids: 19e95174bc326d27eaaf374f8b0e4c5027fa2c20 bd87ebe2ca3c7585e922c518b3d7c93def82ade7
+
+Package: ros-one-collada-parser
+Architecture: amd64
+Version: 1.12.13-1-g4d944c2-2023.02.03.12.34
+Priority: optional
+Section: misc
+Maintainer: Chris Lalancette <clalancette@osrfoundation.org>
+Installed-Size: 415
+Depends: libc6 (>= 2.32), libclass-loader1d (>= 0.5.0), libcollada-dom2.5-dp0 (>= 2.5.0+ds1), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), librosconsole3d (>= 1.14.3), libstdc++6 (>= 11), libclass-loader-dev, libcollada-dom2.4-dp-dev, librosconsole-dev, liburdf-dev, liburdf-parser-plugin-dev
+Filename: ./ros-one-collada-parser_1.12.13-1-g4d944c2-2023.02.03.12.34_amd64.deb
+Size: 133948
+MD5sum: 9b0b5a62eafed9a0768d442f55c3bc5e
+SHA1: 8e7cbc3a51f7d798ca6ce2eb608798a5b5fa3fb6
+SHA256: 168e78b3aa9bb42bc702eb507d6bbb17e494cd60be5b24d2e9a0d5f2c86ac896
+SHA512: 842e92d2c17df96110412f788859deab76d9d4510c80b88018d42b230f23f24b25655ac28591fac21433f0c5120c307f0aaa39204b931a0b792a14aade98078d
+Homepage: http://ros.org/wiki/collada_parser
+Description: This package contains a C++ parser for the Collada robot description format.
+ The parser reads a Collada XML robot description, and creates a C++ URDF model. Although it is possible to directly use this parser when working with Collada robot descriptions, the preferred user API is found in the urdf package.
+
+Package: ros-one-collada-urdf-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 1.12.13-1-g4d944c2-2023.02.03.12.51
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-one-collada-urdf
+Maintainer: Chris Lalancette <clalancette@osrfoundation.org>
+Installed-Size: 3366
+Depends: ros-one-collada-urdf (= 1.12.13-1-g4d944c2-2023.02.03.12.51)
+Filename: ./ros-one-collada-urdf-dbgsym_1.12.13-1-g4d944c2-2023.02.03.12.51_amd64.ddeb
+Size: 3244922
+MD5sum: 24bfda24a575a8fd2c40e951d5e42487
+SHA1: 321979f6a50348e339b5edb7b04d09503d3e20c4
+SHA256: 02d3090e8a8ecb7cff124cc8bbe065b52208e2e0c2b9a1cb14ef14d82bc227ef
+SHA512: 3e2c810ec42400286fdfff421c9db57464fb4c60605d71d3da844180435e92967e08ea892cb4d635c8da7b2d013bd09802f6db9b598072b494db448be987a744
+Description: debug symbols for ros-one-collada-urdf
+Build-Ids: 8d52195ab543972504f5d168e7fdb721b5d6a093 ba5ebddb48cc7a41a9170dbe7f431cebe32c64aa c805363fabaf82a5db26933e1764b9cae4a37f95
+
+Package: ros-one-collada-urdf
+Architecture: amd64
+Version: 1.12.13-1-g4d944c2-2023.02.03.12.51
+Priority: optional
+Section: misc
+Maintainer: Chris Lalancette <clalancette@osrfoundation.org>
+Installed-Size: 491
+Depends: libassimp5 (>= 5.2.2~ds0), libboost-filesystem1.74.0 (>= 1.74.0), libboost-program-options1.74.0 (>= 1.74.0), libc6 (>= 2.34), libcollada-dom2.5-dp0 (>= 2.5.0+ds1), libgcc-s1 (>= 3.3.1), libresource-retriever0d (>= 1.12.7), librosconsole3d (>= 1.14.3), libstdc++6 (>= 11), liburdf1d (>= 1.13.2), liburdfdom-model3.0 (>= 3.0.1), liburdfdom-world3.0 (>= 3.0.1), ros-one-geometric-shapes, libassimp-dev, libcollada-dom2.4-dp-dev, libresource-retriever-dev, librosconsole-dev, liburdf-dev, liburdfdom-dev, liburdfdom-headers-dev, python3-resource-retriever, ros-one-collada-parser
+Filename: ./ros-one-collada-urdf_1.12.13-1-g4d944c2-2023.02.03.12.51_amd64.deb
+Size: 155554
+MD5sum: d6668064c4a104d72159be80353ffe43
+SHA1: 6acc21936369ae40d4eb37bdff1aef72f9a7b454
+SHA256: 325c6b1dd812e0ca92ec707887a3a77e62a2491565fded4f637f6f783d2e50fb
+SHA512: 471c5dce6b4b87c65d136afb446f1ad9635c287f50612328ef5d5f735f2ce13c6d60e70e43bbde2f83be3635aa2a8d12b3b5e44d0068f21e830d4bf9ab6a5e5b
+Homepage: http://ros.org/wiki/collada_urdf
+Description: This package contains a tool to convert Unified Robot Description Format (URDF) documents into COLLAborative Design Activity (COLLADA) documents.
+ Implements robot-specific COLLADA extensions as defined by http://openrave.programmingvision.com/index.php/Started:COLLADA
+
+Package: ros-one-franka-description
+Architecture: amd64
+Version: 0.10.1-16-g2d458ab-2023.02.03.12.36
+Priority: optional
+Section: misc
+Maintainer: Franka Emika GmbH <support@franka.de>
+Installed-Size: 10470
+Depends: ros-one-xacro
+Filename: ./ros-one-franka-description_0.10.1-16-g2d458ab-2023.02.03.12.36_amd64.deb
+Size: 3144174
+MD5sum: 49474a74176d7e0004343032cec93ecf
+SHA1: 5d96e0ec8e7b125d2012c734c5cdf944eef3f835
+SHA256: 73fdaea29cd69c00f04426514fe78bf27204728d049860d130728e215faf0579
+SHA512: cb59a1eadf9c7d86eecc8fd430c8123cba9c8eaae1bd2d3def039f3640b8a76212c1d7b01066ae028839116875cc4c7249c9156c475eaf7f4020df3178751171
+Homepage: http://wiki.ros.org/franka_description
+Description: franka_description contains URDF files and meshes of Franka Emika robots
+
+Package: ros-one-franka-msgs
+Architecture: amd64
+Version: 0.10.1-16-g2d458ab-2023.02.03.12.37
+Priority: optional
+Section: misc
+Maintainer: Franka Emika GmbH <support@franka.de>
+Installed-Size: 1031
+Depends: libactionlib-msgs-dev, libstd-msgs-dev, python3-actionlib-msgs, python3-std-msgs, ros-actionlib-msgs, ros-message-runtime, ros-std-msgs
+Filename: ./ros-one-franka-msgs_0.10.1-16-g2d458ab-2023.02.03.12.37_amd64.deb
+Size: 62394
+MD5sum: 7f1c68659704d3c724567ac5f99e79b6
+SHA1: 1f2116b8c044b969f9c496de02c48b8cf97ed2ae
+SHA256: 28d1f641b95c88455783cf44a65ed0a64d2d8c4ded67a9ee1fc5d3b75eaabff9
+SHA512: a4ac0d292901657c7b7484e363fb951b7a2942dfe3498dafd001144602a569032f877d98c09dbed25f222cd7a3cb1337ec3af6ee47be4efb035bfe32d5b241a0
+Homepage: http://wiki.ros.org/franka_msgs
+Description: franka_msgs provides messages specific to Franka Emika research robots
+
+Package: ros-one-franka-ros
+Architecture: amd64
+Version: 0.10.1-16-g2d458ab-2023.02.03.12.38
+Priority: optional
+Section: misc
+Maintainer: Franka Emika GmbH <support@franka.de>
+Installed-Size: 13
+Depends: ros-one-franka-control, ros-one-franka-description, ros-one-franka-example-controllers, ros-one-franka-gazebo, ros-one-franka-gripper, ros-one-franka-hw, ros-one-franka-msgs, ros-one-franka-visualization
+Filename: ./ros-one-franka-ros_0.10.1-16-g2d458ab-2023.02.03.12.38_amd64.deb
+Size: 1622
+MD5sum: 4a564933c765fb6075204904ea97bf6c
+SHA1: 8e21ebbf696e8a312edecebe2900a28e9195a165
+SHA256: 7a01aa369b19839e295186b7aa681bf49d33aee5c009ea1fa4d05533154ab62c
+SHA512: 087145bb3629902f320e8d5c909abfb39814c0e59896339e0e7ae0ccdf4baa58af6b444157851ad36f825663ee97a95cc0efc079706935a45a2d0b23f85701f1
+Homepage: http://wiki.ros.org/franka_ros
+Description: franka_ros is a metapackage for all Franka Emika ROS packages
+
+Package: ros-one-geometric-shapes-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 0.7.3-9-g0991e05-2023.02.03.12.50
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-one-geometric-shapes
+Maintainer: Tyler Weaver <tyler@picknik.ai>
+Installed-Size: 3814
+Depends: ros-one-geometric-shapes (= 0.7.3-9-g0991e05-2023.02.03.12.50)
+Filename: ./ros-one-geometric-shapes-dbgsym_0.7.3-9-g0991e05-2023.02.03.12.50_amd64.ddeb
+Size: 3802416
+MD5sum: f742f3da84845bc3e0f28737e25c5f20
+SHA1: d7259f619f354df71087dd4f63640e4ecc363203
+SHA256: 41b490e99c8d97c95d7d6450839b65b674bcfad4fa912477cc1333b958041f64
+SHA512: e39c119053ac20281ad8df06526688468e1b341fe3c82138e4890140f7f2ba814cfddf72259c758396b0f062633a0d48842f17e242d2b25d099fc0bc086ec2be
+Description: debug symbols for ros-one-geometric-shapes
+Build-Ids: 35219ffd62cdc27d6bbfbb0335b0b482da2e9a4c
+
+Package: ros-one-geometric-shapes
+Architecture: amd64
+Version: 0.7.3-9-g0991e05-2023.02.03.12.50
+Priority: optional
+Section: misc
+Maintainer: Tyler Weaver <tyler@picknik.ai>
+Installed-Size: 299
+Depends: libassimp5 (>= 5.2.2~ds0), libc6 (>= 2.32), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libfcl0.7 (>= 0.7.0), libgcc-s1 (>= 3.3.1), libqhull-r8.0 (>= 2020.1), libresource-retriever0d (>= 1.12.7), libstdc++6 (>= 11), libassimp-dev, libboost-all-dev, libconsole-bridge-dev, libdynamicedt3d-dev, libeigen-stl-containers-dev, libeigen3-dev, libfcl-dev, liboctomap-dev, libqhull-dev, libresource-retriever-dev, libshape-msgs-dev, libvisualization-msgs-dev, python3-resource-retriever, python3-shape-msgs, python3-visualization-msgs, ros-one-random-numbers, ros-shape-msgs, ros-visualization-msgs
+Filename: ./ros-one-geometric-shapes_0.7.3-9-g0991e05-2023.02.03.12.50_amd64.deb
+Size: 87712
+MD5sum: 2d77d2218b107051e13f097bb6b100ff
+SHA1: a711c4f57e9087ef1d1b24051723c17f55b7e711
+SHA256: 34ceabff4b74fca7aa27518ae2c33714385fc8cfade2d6b6c24907ac95ea5948
+SHA512: f6388b7915cf5b06fbe459e6154da2a9a8bca8f91900e02bab6d0d5b052135b86cf89ffa916ea29990c9ba07de4ba0563ffb26063a46d61cb304380a6690432b
+Homepage: http://ros.org/wiki/geometric_shapes
+Description: Generic definitions of geometric shapes and bodies.
+
+Package: ros-one-moveit-commander
+Architecture: amd64
+Version: 1.1.11-13-gb32af6a22-2023.02.03.12.42
+Priority: optional
+Section: misc
+Maintainer: Michael Görner <me@v4hn.de>
+Installed-Size: 235
+Depends: libgeometry-msgs-dev, libsensor-msgs-dev, libshape-msgs-dev, libtf-dev, python3-dev, python3-geometry-msgs, python3-pyassimp, python3-rospy, python3-sensor-msgs, python3-shape-msgs, python3-tf, ros-geometry-msgs, ros-one-moveit-msgs, ros-one-moveit-ros-planning-interface, ros-sensor-msgs, ros-shape-msgs, tf-tools
+Filename: ./ros-one-moveit-commander_1.1.11-13-gb32af6a22-2023.02.03.12.42_amd64.deb
+Size: 48818
+MD5sum: f1ee4d1a37ea0489a786c1b5a86f2dd0
+SHA1: 655e1bddc9bd3d909bcdae5f5ab5c00068602fe9
+SHA256: a1eeded17854dc084d1dfea48ed1dbd123bb16fb040adbee1ac34683e4bb336d
+SHA512: b4245669c354fb51b414fa0a95e8e0f03354460700a7186f35c4a8fa62d1a822a207b9196c93c85ee04c389eb4f88ef45a372b9798bce3b7c658ff3a8f104472
+Homepage: http://moveit.ros.org
+Description: Python interfaces to MoveIt
+
+Package: ros-one-moveit-planners
+Architecture: amd64
+Version: 1.1.11-13-gb32af6a22-2023.02.03.12.39
+Priority: optional
+Section: misc
+Maintainer: Dave Coleman <dave@picknik.ai>
+Installed-Size: 13
+Depends: ros-one-chomp-motion-planner, ros-one-moveit-planners-chomp, ros-one-moveit-planners-ompl, ros-one-pilz-industrial-motion-planner
+Filename: ./ros-one-moveit-planners_1.1.11-13-gb32af6a22-2023.02.03.12.39_amd64.deb
+Size: 2312
+MD5sum: cd86c7f597a8dff78d2d52dea34d56a5
+SHA1: 09f70dbbfa656c7b71e288662b4391774d07e7e7
+SHA256: 52451e4ff7b8f0c5b538d4f3968b368858ab3c1f0bb0454d7d322fc2670901be
+SHA512: a4e129826446c836bb3813bf3e19109be82dfe8d775dea63917a73f2f2fe4e679e72459c99c41ea3bcf8b7a382c85801db89338688680b31a21d31f006aed9ad
+Homepage: http://moveit.ros.org
+Description: Metapacakge that installs all available planners for MoveIt
+
+Package: ros-one-moveit-plugins
+Architecture: amd64
+Version: 1.1.11-13-gb32af6a22-2023.02.03.12.39
+Priority: optional
+Section: misc
+Maintainer: Michael Görner <me@v4hn.de>
+Installed-Size: 13
+Depends: ros-one-moveit-fake-controller-manager, ros-one-moveit-ros-control-interface, ros-one-moveit-simple-controller-manager
+Filename: ./ros-one-moveit-plugins_1.1.11-13-gb32af6a22-2023.02.03.12.39_amd64.deb
+Size: 2404
+MD5sum: 35830e81aefefd8c6be107be7f34645e
+SHA1: 32a1d5bc093d6800b09907a3a24f0515e6fdc0b9
+SHA256: a0397f9521f0f55999a6b4466597d4a77ad910993155fb755e3779de2562f577
+SHA512: fbc68a091a9d566618b5263a0a0a34ba4348ae74691993937d51bb7246d7c0a9a39cd6d294105658c549294818e4785705fe99e2f2b6388498fc91be305a11aa
+Homepage: http://moveit.ros.org
+Description: Metapackage for MoveIt plugins.
+
+Package: ros-one-moveit-resources-dual-panda-moveit-config
+Architecture: amd64
+Version: 0.8.2-5-g0be98e1-2023.02.03.12.40
+Priority: optional
+Section: misc
+Maintainer: Cristian C. Beltran-Hernandez <cristianbehe@gmail.com>
+Installed-Size: 126
+Depends: joint-state-publisher, joint-state-publisher-gui, librobot-state-publisher-dev, librviz-dev, libtf2-ros-dev, python3-tf2-ros, ros-one-moveit-resources-panda-description, ros-one-xacro, ros-robot-state-publisher, rviz
+Filename: ./ros-one-moveit-resources-dual-panda-moveit-config_0.8.2-5-g0be98e1-2023.02.03.12.40_amd64.deb
+Size: 18390
+MD5sum: 8919ffe63f562b1184b01a712548edc3
+SHA1: 90dbeb5f80d99531b0468547dd75eed29d0f1875
+SHA256: d9772d631aabe475f2d4708e76429c5263038f89c67ee0b88acceaef94245e78
+SHA512: 952267b865b5ae5c33c5e373835b299b886f07cc22d849da3a40fe86fc4c63506f7fc188ab4c64311553b66c2e80577f32bd695a36da55b6a0734a9f36842434
+Homepage: http://moveit.ros.org/
+Description: An automatically generated package with all the configuration and launch files for using the panda with the MoveIt Motion Planning Framework
+
+Package: ros-one-moveit-resources-fanuc-description
+Architecture: amd64
+Version: 0.8.2-5-g0be98e1-2023.02.03.12.41
+Priority: optional
+Section: misc
+Maintainer: MoveIt Release Team <moveit_releasers@googlegroups.com>
+Installed-Size: 724
+Filename: ./ros-one-moveit-resources-fanuc-description_0.8.2-5-g0be98e1-2023.02.03.12.41_amd64.deb
+Size: 127632
+MD5sum: 3e3f3a6dda55df3c639955dfd197f1ef
+SHA1: e5eb046f0fb492b426db663a09f30193c1e57e63
+SHA256: 4df171cc01947b3d2f9b69d4038c7d885ece9b91a7af00199f6e1aaa122bd4a4
+SHA512: a3fce6f8334acb00b232aee4f48c5d5e8845102d54dd9e2a3f8acbc5304245f329a69b18ceb5524ea3445b746c178d124bb09fb4b54aa1ae9eae8fdb8204655c
+Homepage: http://moveit.ros.org
+Description: Fanuc Resources used for MoveIt! testing
+
+Package: ros-one-moveit-resources-fanuc-moveit-config
+Architecture: amd64
+Version: 0.8.2-5-g0be98e1-2023.02.03.12.41
+Priority: optional
+Section: misc
+Maintainer: MoveIt Release Team <moveit_releasers@googlegroups.com>
+Installed-Size: 106
+Depends: joint-state-publisher, librobot-state-publisher-dev, libtf2-ros-dev, python3-tf2-ros, ros-one-moveit-resources-fanuc-description, ros-one-xacro, ros-robot-state-publisher
+Filename: ./ros-one-moveit-resources-fanuc-moveit-config_0.8.2-5-g0be98e1-2023.02.03.12.41_amd64.deb
+Size: 17644
+MD5sum: d7229bc06e1e283a81d7f89347a9ccc4
+SHA1: ff8ddc7aac96b45dbe547e079df328c4bc60737f
+SHA256: a309468f3b763f3cce48289294b11326e60da1701982d4e79bb3c2d54ea079db
+SHA512: 89b1081f07606d5a496c8527eba0ac4b5b8d47fe56bd112d2bd064ff32cdaf3f39bb02259f85d22072cd2bf45c9f5ff9e3564133b16cba5d6044f08b6ac801cb
+Homepage: http://moveit.ros.org
+Description: MoveIt Resources for testing: Fanuc M-10iA.
+ A project-internal configuration for testing in MoveIt.
+
+Package: ros-one-moveit-resources-panda-description
+Architecture: amd64
+Version: 0.8.2-5-g0be98e1-2023.02.03.12.43
+Priority: optional
+Section: misc
+Maintainer: MoveIt Release Team <moveit_releasers@googlegroups.com>
+Installed-Size: 10459
+Filename: ./ros-one-moveit-resources-panda-description_0.8.2-5-g0be98e1-2023.02.03.12.43_amd64.deb
+Size: 3138754
+MD5sum: 0ca382be806b8d5e8f9280af3930c1ac
+SHA1: 8706f0a3bb7cb39a0623cef407bcab54a50db80e
+SHA256: e179c52e76f050650efae232dbdefc57b5b43f8220233b2a7dab129d74f78f66
+SHA512: 422524586cc1b2102f9d2b857a627e0e154b7cc505b0e29d7294d102711b70bc26bb6b348e26b20d7943fb329c1251a116bc889c75b0f1c9bbf66eddccea264a
+Homepage: http://moveit.ros.org
+Description: panda Resources used for MoveIt! testing
+
+Package: ros-one-moveit-resources-panda-moveit-config
+Architecture: amd64
+Version: 0.8.2-5-g0be98e1-2023.02.03.12.44
+Priority: optional
+Section: misc
+Maintainer: MoveIt maintainer team <moveit_releasers@googlegroups.com>
+Installed-Size: 112
+Depends: joint-state-publisher, joint-state-publisher-gui, librobot-state-publisher-dev, librviz-dev, libtf2-ros-dev, python3-tf2-ros, ros-one-moveit-resources-panda-description, ros-one-xacro, ros-robot-state-publisher, rviz
+Filename: ./ros-one-moveit-resources-panda-moveit-config_0.8.2-5-g0be98e1-2023.02.03.12.44_amd64.deb
+Size: 20432
+MD5sum: b30a2bb64292ff9b23eb7d3ffd777b6e
+SHA1: 0660929d82566d2807955d3c2e97cc4cd127696e
+SHA256: 3da41b04f4d369d13e3551cf79013f54db566b0addbdf159f9619cafb1cdfa59
+SHA512: ac15f2a739c7659a07f68a36901c81890ef078f1241233281bf60f75f0ea9f2a372bbcd5a477ecb30eb852671029b4f3a0d7aaa1e4eacf03846f442adcb46233
+Homepage: http://moveit.ros.org/
+Description: MoveIt Resources for testing: Franka Emika Panda A project-internal configuration for testing in MoveIt.
+
+Package: ros-one-moveit-resources-pr2-description
+Architecture: amd64
+Version: 0.8.2-5-g0be98e1-2023.02.03.12.44
+Priority: optional
+Section: misc
+Maintainer: MoveIt Release Team <moveit_releasers@googlegroups.com>
+Installed-Size: 48612
+Filename: ./ros-one-moveit-resources-pr2-description_0.8.2-5-g0be98e1-2023.02.03.12.44_amd64.deb
+Size: 24388268
+MD5sum: 1647707b1976fd848991497ab3e6c17b
+SHA1: 7ee4c76f3c559a2bb52bb79e201f80ff8efd093a
+SHA256: b1fac14a9dff554f8700c3238890a3f7f8c35a649a0ef44223c481f66e37ef57
+SHA512: e5462bb2f2031b703acd5281e7366a15e53df21cd09ff2e281bc5224064f8d4a0ca1702212bb52b8f70f7893a65c047dd8b15625f43dad5b5c7a9c49e257dbf4
+Homepage: http://moveit.ros.org
+Description: PR2 Resources used for MoveIt! testing
+
+Package: ros-one-moveit-resources-prbt-moveit-config
+Architecture: amd64
+Version: 0.8.2-5-g0be98e1-2023.02.03.12.45
+Priority: optional
+Section: misc
+Maintainer: Alexander Gutenkunst <a.gutenkunst@pilz.de>
+Installed-Size: 101
+Depends: joint-state-publisher, librobot-state-publisher-dev, librviz-dev, ros-one-moveit-resources-prbt-ikfast-manipulator-plugin, ros-one-moveit-resources-prbt-support, ros-one-xacro, ros-robot-state-publisher, rviz
+Filename: ./ros-one-moveit-resources-prbt-moveit-config_0.8.2-5-g0be98e1-2023.02.03.12.45_amd64.deb
+Size: 16994
+MD5sum: fb036e615fc96d9ff5d217e4ab4b7628
+SHA1: 6d4b0577d07e759f1958ae45df5d473b356f0d70
+SHA256: bba5743e9f6b99dcaffc5da5175b8763ea49a6081d941a712650ce7faacf749f
+SHA512: 76f2089e797af43d8989dbc20f068b202ec975ef8768dd00031feba0924dab5a438b47f6e170901fd18ea17055b0d96fd08e1779f6df0933257f811fdb456465
+Homepage: http://moveit.ros.org
+Description: MoveIt Resources for testing: Pilz PRBT 6 A project-internal configuration for testing in MoveIt.
+
+Package: ros-one-moveit-resources-prbt-pg70-support
+Architecture: amd64
+Version: 0.8.2-5-g0be98e1-2023.02.03.12.46
+Priority: optional
+Section: misc
+Maintainer: Alexander Gutenkunst <a.gutenkunst@pilz.de>
+Installed-Size: 55
+Depends: ros-one-moveit-resources-prbt-ikfast-manipulator-plugin, ros-one-moveit-resources-prbt-moveit-config, ros-one-moveit-resources-prbt-support, ros-one-xacro
+Filename: ./ros-one-moveit-resources-prbt-pg70-support_0.8.2-5-g0be98e1-2023.02.03.12.46_amd64.deb
+Size: 9190
+MD5sum: 0aa6d09d6b3af626caa614a25c336fb4
+SHA1: 0d60181b6422476b2f16747224a99cec3763bac1
+SHA256: d42d9115739583f5ba929a711fe72cf1426a385ab62b275802a9d1483ce72c31
+SHA512: 9ed4529c2a5c220a4118d946db352abde0892cfacfc46825bd4ac61144cf92d0cc58587d3f746253f97402dfd7a8946ca3094b35adbdca1d9ff42a1a72c10c9f
+Homepage: http://moveit.ros.org
+Description: PRBT support for Schunk pg70 gripper.
+
+Package: ros-one-moveit-resources-prbt-support
+Architecture: amd64
+Version: 0.8.2-5-g0be98e1-2023.02.03.12.46
+Priority: optional
+Section: misc
+Maintainer: Alexander Gutenkunst <a.gutenkunst@pilz.de>
+Installed-Size: 3842
+Depends: ros-one-xacro
+Filename: ./ros-one-moveit-resources-prbt-support_0.8.2-5-g0be98e1-2023.02.03.12.46_amd64.deb
+Size: 787800
+MD5sum: e677a1aa42d7e997ec7fa46b081b6ff8
+SHA1: 21545a56bb931d99ec0c2d3e12a46862453fe8b2
+SHA256: eaddb4af06791ab0e8c11f3189a88ea0592de27340ba90daf20a6831e208c04c
+SHA512: fd2ed951338e07cf312b4b42e45b5ea767a9ecec2ad393dc80dc1ff292a22dbf62035bc97ff5cad379f6ff864bdca5dfac40e193aeea404e343ee3bc8ba4ba1b
+Homepage: http://moveit.ros.org
+Description: Mechanical, kinematic and visual description of the Pilz light weight arm PRBT.
+
+Package: ros-one-moveit-resources
+Architecture: amd64
+Version: 0.8.2-5-g0be98e1-2023.02.03.12.40
+Priority: optional
+Section: misc
+Maintainer: MoveIt Release Team <moveit_releasers@googlegroups.com>
+Installed-Size: 15
+Depends: joint-state-publisher, librobot-state-publisher-dev, ros-one-moveit-resources-fanuc-description, ros-one-moveit-resources-fanuc-moveit-config, ros-one-moveit-resources-panda-description, ros-one-moveit-resources-panda-moveit-config, ros-one-moveit-resources-pr2-description, ros-robot-state-publisher
+Filename: ./ros-one-moveit-resources_0.8.2-5-g0be98e1-2023.02.03.12.40_amd64.deb
+Size: 2946
+MD5sum: 4d4390c7c7050a5bc65066e1e2bd8caf
+SHA1: ff9efbca1c821e68591bd26f942dffe1e97a31bc
+SHA256: cf0b346650d614d9b3e1998d045889ea14d2bf41ec99e6eab1da657993f3e31d
+SHA512: 171395d1676fdef7274f106e8209cebfe0d518f79c02e0ffac702117e0ee7a85f9fbe23d4b9ad096fac3da97f1e6a53b887608c4da99e5d23e9b02b65698bbbb
+Homepage: http://moveit.ros.org
+Description: Resources used for MoveIt! testing
+
+Package: ros-one-moveit-ros
+Architecture: amd64
+Version: 1.1.11-13-gb32af6a22-2023.02.03.12.47
+Priority: optional
+Section: misc
+Maintainer: Michael Ferguson <mferguson@fetchrobotics.com>
+Installed-Size: 15
+Depends: ros-one-moveit-ros-benchmarks, ros-one-moveit-ros-manipulation, ros-one-moveit-ros-move-group, ros-one-moveit-ros-perception, ros-one-moveit-ros-planning, ros-one-moveit-ros-planning-interface, ros-one-moveit-ros-robot-interaction, ros-one-moveit-ros-visualization, ros-one-moveit-ros-warehouse
+Filename: ./ros-one-moveit-ros_1.1.11-13-gb32af6a22-2023.02.03.12.47_amd64.deb
+Size: 2838
+MD5sum: 9d9268893d61898fb7232cee1820f325
+SHA1: f7f6983541b67eef14015e6f411100b594a8c01d
+SHA256: e36a3ce514974768df02472f51583c559be6966dcbe1b0d38c8036c5bf8707fa
+SHA512: b88afd01e106e13cae1031a8f2747b9b14661f03f05567b09300502d4ab51ae5817d20f7d66d7a93d72d5cf22a181791376effba01fbb71c58a6ae44947ae738
+Homepage: http://moveit.ros.org
+Description: Components of MoveIt that use ROS
+
+Package: ros-one-moveit-runtime
+Architecture: amd64
+Version: 1.1.11-13-gb32af6a22-2023.02.03.12.48
+Priority: optional
+Section: misc
+Maintainer: Isaac I. Y. Saito <gm130s@gmail.com>
+Installed-Size: 14
+Depends: ros-one-moveit-core, ros-one-moveit-planners, ros-one-moveit-plugins, ros-one-moveit-ros-manipulation, ros-one-moveit-ros-move-group, ros-one-moveit-ros-perception, ros-one-moveit-ros-planning, ros-one-moveit-ros-planning-interface, ros-one-moveit-ros-warehouse
+Filename: ./ros-one-moveit-runtime_1.1.11-13-gb32af6a22-2023.02.03.12.48_amd64.deb
+Size: 2318
+MD5sum: 4ee53f7173030728f970a3ba30f6f47f
+SHA1: a6221d46aba982d83fd6edfea656abe740dada67
+SHA256: 5f7cb662b9f6396b396c28273ca7ec0772175130c7e54dbe4938faea13b1fc9f
+SHA512: 959aeed7a19d48b2cdad0b87b4e407134f0f8d881a39e99b5f7daaa36e5476be3deb4efc994b6766748632fc79afd61adf6a5619b18b1882a6a4dc61ef1ef8c2
+Homepage: http://moveit.ros.org
+Description: moveit_runtime meta package contains MoveIt packages that are essential for its runtime (e.g.
+ running MoveIt on robots).
+
+Package: ros-one-moveit
+Architecture: amd64
+Version: 1.1.11-13-gb32af6a22-2023.02.03.12.38
+Priority: optional
+Section: misc
+Maintainer: Dave Coleman <dave@picknik.ai>
+Installed-Size: 21
+Depends: ros-one-moveit-commander, ros-one-moveit-core, ros-one-moveit-planners, ros-one-moveit-plugins, ros-one-moveit-ros, ros-one-moveit-setup-assistant
+Filename: ./ros-one-moveit_1.1.11-13-gb32af6a22-2023.02.03.12.38_amd64.deb
+Size: 9404
+MD5sum: 2038f7e4d573f77737d2a3b3c40aaf04
+SHA1: c5b74ca158594bb4e65b9ef3f17f076d1c2e6754
+SHA256: eab0146d30f0b460643b75de2fa347eb0d982fc83bb40569d1c866ed06f32d49
+SHA512: a2517ffcfb9a0c2c8c9a0803c4380d1bf398d0eabc8b370c0b0c2e62e3fb49bf435c0f119d3e560fadb64a5cea2f2024773a623481499e2dcfaff7fa5c96fb19
+Homepage: http://moveit.ros.org
+Description: Meta package that contains all essential package of MoveIt.
+ Until Summer 2016 MoveIt had been developed over multiple repositories, where developers' usability and maintenance effort was non-trivial. See the detailed discussion for the merge of several repositories.
+
+Package: ros-one-opw-kinematics
+Architecture: amd64
+Version: 0.5.0-2023.02.03.12.53
+Priority: optional
+Section: misc
+Maintainer: Jon Meyer <jmeyer@swri.org>
+Installed-Size: 65
+Depends: libeigen3-dev
+Filename: ./ros-one-opw-kinematics_0.5.0-2023.02.03.12.53_amd64.deb
+Size: 13662
+MD5sum: c9bb88255c1c1aec5a09674d8acb5f2e
+SHA1: f43b5f0a0a7adfe6e6ba6a803c84cc3b2264eec0
+SHA256: c7f42a30246c24d9a4a796ec858df01fafae649f31c55210d6831b5695a65afb
+SHA512: 46c1d6180a840528e9b790a2c4f9084f7b852d4ca414da4a2e1eecf3834c8d1ec69347c23ed4c6f92b9a35f0b7fb636da8dfbc9c65c0cf00692631567dad1820
+Description: A simple, analytical inverse kinematic library for industrial robots with parallel bases and spherical wrists.
+ Based on the paper &quot;An Analytical Solution of the Inverse Kinematics Problem of Industrial Serial Manipulators with an Ortho-parallel Basis and a Spherical Wrist&quot; by Mathias Brandstötter, Arthur Angerer, and Michael Hofbaur.
+
+Package: ros-one-panda-moveit-config
+Architecture: amd64
+Version: 0.8.1-2-gb5ce355-2023.02.03.12.48
+Priority: optional
+Section: misc
+Maintainer: MoveIt maintainer team <moveit_releasers@googlegroups.com>
+Installed-Size: 127
+Depends: joint-state-publisher, joint-state-publisher-gui, librobot-state-publisher-dev, librviz-dev, libtf2-ros-dev, python3-tf2-ros, ros-one-franka-description (>= 0.10.0), ros-one-moveit-fake-controller-manager, ros-one-moveit-kinematics, ros-one-moveit-planners, ros-one-moveit-ros-move-group, ros-one-moveit-ros-visualization, ros-one-moveit-setup-assistant, ros-one-moveit-simple-controller-manager, ros-one-xacro, ros-robot-state-publisher, rviz
+Filename: ./ros-one-panda-moveit-config_0.8.1-2-gb5ce355-2023.02.03.12.48_amd64.deb
+Size: 21582
+MD5sum: 8ca0148e0ffd07062bc13d96fe2aefd2
+SHA1: d75e7743a3380e1a69c162c44b1edeb2ef73d32c
+SHA256: 802007d62cef56dd9bb12a2612824f952a59ec0df8f5d6440cf0f9fd59995ed2
+SHA512: c72ccb69588fbf542b7f905eebf89b0471614f0df7d0584b61e4f1cc70f55a0fd6ef4a62717f986beaed75d15a9dab9731427146a56e46c82f5b0c4bb9a94243
+Homepage: http://moveit.ros.org/
+Description: An automatically generated package with all the configuration and launch files for using the panda with the MoveIt Motion Planning Framework
+
+Package: ros-one-random-numbers-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 0.3.2-8-g0703c2e-2023.02.03.12.49
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-one-random-numbers
+Maintainer: Steven! Ragnarök <stevenragnarok@osrfoundation.org>
+Installed-Size: 198
+Depends: ros-one-random-numbers (= 0.3.2-8-g0703c2e-2023.02.03.12.49)
+Filename: ./ros-one-random-numbers-dbgsym_0.3.2-8-g0703c2e-2023.02.03.12.49_amd64.ddeb
+Size: 169396
+MD5sum: 38d21e8f30ec728d36758d66e404f310
+SHA1: f5d429825f2c7d75050423f6e700aea32433c0aa
+SHA256: a2e1275b86ff0a2611fef5de6a59aa186a0541fbe02ed01bc473d91e887bbe03
+SHA512: 8370540ae6061fadf65616255d0873e05e3351a47abd9b75df840df98864e2add19dc10a1001f3f0122cbd9c6cd6b319ecd79bb60a66a7f1106b8da664fe756d
+Description: debug symbols for ros-one-random-numbers
+Build-Ids: 826f46b7dcd553cef1f831746f6252f51e6c0f2f
+
+Package: ros-one-random-numbers
+Architecture: amd64
+Version: 0.3.2-8-g0703c2e-2023.02.03.12.49
+Priority: optional
+Section: misc
+Maintainer: Steven! Ragnarök <stevenragnarok@osrfoundation.org>
+Installed-Size: 91
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 5.2), libboost-all-dev
+Filename: ./ros-one-random-numbers_0.3.2-8-g0703c2e-2023.02.03.12.49_amd64.deb
+Size: 25772
+MD5sum: 77adc7ff735033ff5564e44c38489a0d
+SHA1: 77483a87f2170add6a3fd61f99d2bbaed0dd91d5
+SHA256: 362a158dc6c1712296d8ead9c4cee19a04617e75060ea5ab79bcd549e47fc877
+SHA512: 8b530ef7850425b32d809858dcfe4ec3c9227a718ec1d4aa879117cf38769185f3c21af91f0ba397991ccbb269940c61c28a343acce727bc667183cc8c91266b
+Homepage: http://ros.org/wiki/random_numbers
+Description: This library contains wrappers for generating floating point values, integers, quaternions using boost libraries.
+ The constructor of the wrapper is guaranteed to be thread safe and initialize its random number generator to a random seed. Seeds are obtained using a separate and different random number generator.
+
+Package: ros-one-ros-industrial-cmake-boilerplate
+Architecture: amd64
+Version: 0-2023.02.03.12.52
+Priority: optional
+Section: misc
+Maintainer: Levi Armstrong <Levi.Armstrong@swri.org>
+Installed-Size: 80
+Filename: ./ros-one-ros-industrial-cmake-boilerplate_0-2023.02.03.12.52_amd64.deb
+Size: 14928
+MD5sum: a38627ebc004043ee93aa5cbcf7d26a2
+SHA1: 587848b876e256745d6751f63f3d08dee19040eb
+SHA256: f0b04e1a39e3e415a558fa23ef61c83df39c3489abfcc485fd2b4146bd4f982f
+SHA512: 49f849904c58be3c86f0becd38def29a112785c5bf6db145dc5db93455ceb3b595885d3323e28d3aafb56eade110badd4ac43ce421a708820363e31f6099dee3
+Description: Contains boilerplate cmake script, macros and utils
+
+Package: ros-one-ruckig-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 0.9.2-2023.02.03.12.54
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-one-ruckig
+Maintainer: Lars Berscheid <lars.berscheid@ruckig.com>
+Installed-Size: 246
+Depends: ros-one-ruckig (= 0.9.2-2023.02.03.12.54)
+Filename: ./ros-one-ruckig-dbgsym_0.9.2-2023.02.03.12.54_amd64.ddeb
+Size: 227818
+MD5sum: 50f73584e5a851a89b365b063c00c5d6
+SHA1: a42af16e9fe2b20f0b411dc656d40429e79a4ea4
+SHA256: 557f66eed901fbb91e729f0421261a7b0a36bfc966c96bb4f9e672a7ff3a7db2
+SHA512: 85e0d34399443897c124fb42e857abdb00f6416b489cf40261230260b2a42affee20d8dbd41ec23a462bbd47f923190ed5efb6c8a062d4c39fd1f21c73b6245e
+Description: debug symbols for ros-one-ruckig
+Build-Ids: e86a3cfb17a705404b68f440a52a147aa41cd2e0
+
+Package: ros-one-ruckig
+Architecture: amd64
+Version: 0.9.2-2023.02.03.12.54
+Priority: optional
+Section: misc
+Maintainer: Lars Berscheid <lars.berscheid@ruckig.com>
+Installed-Size: 275
+Depends: libc6 (>= 2.4), libstdc++6 (>= 4.1.1)
+Filename: ./ros-one-ruckig_0.9.2-2023.02.03.12.54_amd64.deb
+Size: 76310
+MD5sum: 126d6c883d8830e96b95fa1d22fa8384
+SHA1: 7fa0f4504e58742907eb1665ea47df241cb39bb0
+SHA256: a79c3a4877ac88efff9e48cda769381ea3f9a2ed636653cdc13869624bd43107
+SHA512: 152ce3d1620f2bf51034f5522733524d24680e970cf72d2effa3505495da463817dae34ceaaaaae52c2d54a33dc4cd0eaefc9d6e7ee6bf2dbe3ea2e946453a59
+Description: Instantaneous Motion Generation for Robots and Machines.
+
+Package: ros-one-srdfdom-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 0.6.3-2023.02.03.12.56
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-one-srdfdom
+Maintainer: MoveIt Release Team <moveit_releasers@googlegroups.com>
+Installed-Size: 766
+Depends: ros-one-srdfdom (= 0.6.3-2023.02.03.12.56)
+Filename: ./ros-one-srdfdom-dbgsym_0.6.3-2023.02.03.12.56_amd64.ddeb
+Size: 734156
+MD5sum: 1366986bb2637e05b5a6719da6868cfc
+SHA1: 342b846658d8b69a82d019eaa835921f1660d3c7
+SHA256: 144493759d1938b405657f3af356396bbe526b6d5e4401642fc2139da5b941a4
+SHA512: a75d7572a48d17fa310a3342ef577326e56112c5ba212ea494ed570d322ebfab184d3efdb8280813de6b94c0451741a045a904d8f5bf1c2e628a6b73ea55809f
+Description: debug symbols for ros-one-srdfdom
+Build-Ids: 2008f1f775cbb6a706ca1d0a0e66b220a7840a4a
+
+Package: ros-one-srdfdom
+Architecture: amd64
+Version: 0.6.3-2023.02.03.12.56
+Priority: optional
+Section: misc
+Maintainer: MoveIt Release Team <moveit_releasers@googlegroups.com>
+Installed-Size: 197
+Depends: libc6 (>= 2.32), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), libtinyxml2-9 (>= 8.0.0), libboost-all-dev, libtinyxml2-dev, liburdf-dev, ros-one-urdfdom-py
+Filename: ./ros-one-srdfdom_0.6.3-2023.02.03.12.56_amd64.deb
+Size: 60292
+MD5sum: b00b776070fcab147f44043ee3152922
+SHA1: 54663129c29f3a3b19d846f4be73c145fa1211cc
+SHA256: b14d0933f65e85e7ed7f019f43a33e279f13859d51ea17c2654e070eac4722dc
+SHA512: b4d067a595d19c1e26dc76a8903428e45068b3562a3ce1affa7004c29ba13797902054869e2a941f9ea638c35a23b99b3765af2ef568a9e673c5653d02a931b8
+Homepage: http://ros.org/wiki/srdfdom
+Description: Parser for Semantic Robot Description Format (SRDF).
+
+Package: ros-one-warehouse-ros-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 0.9.5-2023.02.03.13.05
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-one-warehouse-ros
+Maintainer: MoveIt Release Team <moveit_releasers@googlegroups.com>
+Installed-Size: 1142
+Depends: ros-one-warehouse-ros (= 0.9.5-2023.02.03.13.05)
+Filename: ./ros-one-warehouse-ros-dbgsym_0.9.5-2023.02.03.13.05_amd64.ddeb
+Size: 1068454
+MD5sum: e3103ea125442348249f371d98909c86
+SHA1: f3e299590d1da1502e23c8bd941db56ad42a74ad
+SHA256: 7ece9f526aa7af9d1d6211e131ff103dbce56ca57f45f7e13720f99f64471086
+SHA512: 9fdbe009d1490e1f67b93d5c4dbccc290fea95f0aab2f85348489a4e2889c23e4dd1e67bab637274262e57d2b48b05cc4fde06ef00ac3b500538088ac4742cdb
+Description: debug symbols for ros-one-warehouse-ros
+Build-Ids: c5fb09e7893e1f30803f2e21e27b55f375a9fcdc
+
+Package: ros-one-warehouse-ros
+Architecture: amd64
+Version: 0.9.5-2023.02.03.13.05
+Priority: optional
+Section: misc
+Maintainer: MoveIt Release Team <moveit_releasers@googlegroups.com>
+Installed-Size: 292
+Depends: libboost-filesystem1.74.0 (>= 1.74.0), libc6 (>= 2.14), libclass-loader1d (>= 0.5.0), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), librosconsole3d (>= 1.14.3), libroscpp-serialization0d (>= 0.7.2), libroscpp4d (>= 1.15.14+ds), libroslib0d (>= 1.15.8), librostime1d (>= 0.7.2), libstdc++6 (>= 11), libtf1d (>= 1.13.2), libtinyxml2-9 (>= 8.0.0), libboost-all-dev, libgeometry-msgs-dev, libroscpp-core-dev, libroscpp-dev, libstd-msgs-dev, libtf-dev, pluginlib-dev (>= 1.11.2), python3-geometry-msgs, python3-std-msgs, python3-tf, ros-geometry-msgs, ros-std-msgs, tf-tools
+Filename: ./ros-one-warehouse-ros_0.9.5-2023.02.03.13.05_amd64.deb
+Size: 86516
+MD5sum: bd4f59da223ae977e0634a81e984bad0
+SHA1: d94b2085df847a56bad947b9cab82c8b4d9bed16
+SHA256: 923db95bbde2e46cc5f3f0dc4ad63925bda45eb40120b4403652534d5852d54b
+SHA512: 6d07f364cf7a15282380b0058cdc8a962a0e60504777af370afc8ecc15f64c3727c8ac5c3e984a7703c8d0a33b434128ca88a6648d6369873dd5d7b1b5abd0b4
+Homepage: http://ros.org/wiki/warehouse_ros
+Description: Persistent storage of ROS messages
+

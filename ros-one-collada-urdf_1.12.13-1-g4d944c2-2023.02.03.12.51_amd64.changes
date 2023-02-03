@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Tue, 14 Jul 2020 00:00:00 -0000
+Source: ros-one-collada-urdf
+Binary: ros-one-collada-urdf
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.12.13-1-g4d944c2-2023.02.03.12.51
+Distribution: jammy
+Urgency: high
+Maintainer: Chris Lalancette <clalancette@osrfoundation.org>
+Changed-By: Chris Lalancette <clalancette@osrfoundation.org>
+Description:
+ ros-one-collada-urdf - This package contains a tool to convert Unified Robot Description
+Changes:
+ ros-one-collada-urdf (1.12.13-1-g4d944c2-2023.02.03.12.51) jammy; urgency=high
+ .
+   * Update to newer CMake to get rid of CMP0048 warning (#38 <https://github.com/ros/collada_urdf/issues/38>)
+   * Enable to output transmission_interface instead of pr2_mechanism_model (#35 <https://github.com/ros/collada_urdf/issues/35>)
+   * Contributors: Chris Lalancette, Shun Hasegawa
+Checksums-Sha1:
+ 321979f6a50348e339b5edb7b04d09503d3e20c4 3244922 ros-one-collada-urdf-dbgsym_1.12.13-1-g4d944c2-2023.02.03.12.51_amd64.ddeb
+ 537b6adae36af25adcd5e3817af2a407a2fc4008 19565 ros-one-collada-urdf_1.12.13-1-g4d944c2-2023.02.03.12.51_amd64.buildinfo
+ 6acc21936369ae40d4eb37bdff1aef72f9a7b454 155554 ros-one-collada-urdf_1.12.13-1-g4d944c2-2023.02.03.12.51_amd64.deb
+Checksums-Sha256:
+ 02d3090e8a8ecb7cff124cc8bbe065b52208e2e0c2b9a1cb14ef14d82bc227ef 3244922 ros-one-collada-urdf-dbgsym_1.12.13-1-g4d944c2-2023.02.03.12.51_amd64.ddeb
+ 63f3015474c65a81f0d0954694c123eddb75857c4d0eec01a6755e28a57afd68 19565 ros-one-collada-urdf_1.12.13-1-g4d944c2-2023.02.03.12.51_amd64.buildinfo
+ 325c6b1dd812e0ca92ec707887a3a77e62a2491565fded4f637f6f783d2e50fb 155554 ros-one-collada-urdf_1.12.13-1-g4d944c2-2023.02.03.12.51_amd64.deb
+Files:
+ 24bfda24a575a8fd2c40e951d5e42487 3244922 debug optional ros-one-collada-urdf-dbgsym_1.12.13-1-g4d944c2-2023.02.03.12.51_amd64.ddeb
+ 300ee4131d4e8b3adbdfa1950fa9f56c 19565 misc optional ros-one-collada-urdf_1.12.13-1-g4d944c2-2023.02.03.12.51_amd64.buildinfo
+ d6668064c4a104d72159be80353ffe43 155554 misc optional ros-one-collada-urdf_1.12.13-1-g4d944c2-2023.02.03.12.51_amd64.deb

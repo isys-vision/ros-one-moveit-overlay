@@ -1,0 +1,6 @@
+/usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning:  is an invalid version and will not be supported in a future release
+  warnings.warn(
+/usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning:  is an invalid version and will not be supported in a future release
+  warnings.warn(
+[1m[32m==> [0m[0mGenerating debs for [36mubuntu:jammy[0m for package(s) ['moveit_resources_prbt_ikfast_manipulator_plugin'][0m[0m
+[31m[1mGeneratorError: Error running generator: Failed to resolve rosdep key 'prbt_ikfast_manipulator_plugin', aborting.[0m

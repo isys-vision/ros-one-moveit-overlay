@@ -1,0 +1,24 @@
+Format: 1.8
+Date: Thu, 18 Nov 2021 00:00:00 -0000
+Source: ros-one-moveit-resources-prbt-moveit-config
+Binary: ros-one-moveit-resources-prbt-moveit-config
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.8.2-5-g0be98e1-2023.02.03.12.45
+Distribution: jammy
+Urgency: high
+Maintainer: Alexander Gutenkunst <a.gutenkunst@pilz.de>
+Changed-By: Alexander Gutenkunst <a.gutenkunst@pilz.de>
+Description:
+ ros-one-moveit-resources-prbt-moveit-config - MoveIt Resources for testing: Pilz PRBT 6 A project-internal conf
+Changes:
+ ros-one-moveit-resources-prbt-moveit-config (0.8.2-5-g0be98e1-2023.02.03.12.45) jammy; urgency=high
+Checksums-Sha1:
+ e67bdb5ba5b8db939d8716b3daaffc187ba3b308 7885 ros-one-moveit-resources-prbt-moveit-config_0.8.2-5-g0be98e1-2023.02.03.12.45_amd64.buildinfo
+ 6d4b0577d07e759f1958ae45df5d473b356f0d70 16994 ros-one-moveit-resources-prbt-moveit-config_0.8.2-5-g0be98e1-2023.02.03.12.45_amd64.deb
+Checksums-Sha256:
+ 8c30707ff4ee4e06083c42f3150d5c36023172826ebfbd34d4aeedb03704982c 7885 ros-one-moveit-resources-prbt-moveit-config_0.8.2-5-g0be98e1-2023.02.03.12.45_amd64.buildinfo
+ bba5743e9f6b99dcaffc5da5175b8763ea49a6081d941a712650ce7faacf749f 16994 ros-one-moveit-resources-prbt-moveit-config_0.8.2-5-g0be98e1-2023.02.03.12.45_amd64.deb
+Files:
+ 5e146666e0ab60561d917f8951056834 7885 misc optional ros-one-moveit-resources-prbt-moveit-config_0.8.2-5-g0be98e1-2023.02.03.12.45_amd64.buildinfo
+ fb036e615fc96d9ff5d217e4ab4b7628 16994 misc optional ros-one-moveit-resources-prbt-moveit-config_0.8.2-5-g0be98e1-2023.02.03.12.45_amd64.deb

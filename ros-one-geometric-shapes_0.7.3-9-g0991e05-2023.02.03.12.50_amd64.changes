@@ -1,0 +1,32 @@
+Format: 1.8
+Date: Wed, 19 May 2021 00:00:00 -0000
+Source: ros-one-geometric-shapes
+Binary: ros-one-geometric-shapes
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.7.3-9-g0991e05-2023.02.03.12.50
+Distribution: jammy
+Urgency: high
+Maintainer: Tyler Weaver <tyler@picknik.ai>
+Changed-By: Tyler Weaver <tyler@picknik.ai>
+Description:
+ ros-one-geometric-shapes - Generic definitions of geometric shapes and bodies.
+Changes:
+ ros-one-geometric-shapes (0.7.3-9-g0991e05-2023.02.03.12.50) jammy; urgency=high
+ .
+   * [fix]   Fix memory leak (#168 <https://github.com/ros-planning/geometric_shapes/issues/168>)
+   * [fix]   Use proper Eigen alignment for make_shared calls (#187 <https://github.com/ros-planning/geometric_shapes/issues/187>)
+   * [maint] Migrate from Travis to GitHub Actions (#171 <https://github.com/ros-planning/geometric_shapes/issues/171>)
+   * Contributors: Robert Haschke, Tyler Weaver
+Checksums-Sha1:
+ d7259f619f354df71087dd4f63640e4ecc363203 3802416 ros-one-geometric-shapes-dbgsym_0.7.3-9-g0991e05-2023.02.03.12.50_amd64.ddeb
+ c3fba210f8aed3e9e8f070a7e53314eea2968d10 17366 ros-one-geometric-shapes_0.7.3-9-g0991e05-2023.02.03.12.50_amd64.buildinfo
+ a711c4f57e9087ef1d1b24051723c17f55b7e711 87712 ros-one-geometric-shapes_0.7.3-9-g0991e05-2023.02.03.12.50_amd64.deb
+Checksums-Sha256:
+ 41b490e99c8d97c95d7d6450839b65b674bcfad4fa912477cc1333b958041f64 3802416 ros-one-geometric-shapes-dbgsym_0.7.3-9-g0991e05-2023.02.03.12.50_amd64.ddeb
+ 9b583568808800d74608c4679fecc9015c7d88befbbf300ba6a8d21bdf536661 17366 ros-one-geometric-shapes_0.7.3-9-g0991e05-2023.02.03.12.50_amd64.buildinfo
+ 34ceabff4b74fca7aa27518ae2c33714385fc8cfade2d6b6c24907ac95ea5948 87712 ros-one-geometric-shapes_0.7.3-9-g0991e05-2023.02.03.12.50_amd64.deb
+Files:
+ f742f3da84845bc3e0f28737e25c5f20 3802416 debug optional ros-one-geometric-shapes-dbgsym_0.7.3-9-g0991e05-2023.02.03.12.50_amd64.ddeb
+ 259daefa89a592cf54311940a342dd00 17366 misc optional ros-one-geometric-shapes_0.7.3-9-g0991e05-2023.02.03.12.50_amd64.buildinfo
+ 2d77d2218b107051e13f097bb6b100ff 87712 misc optional ros-one-geometric-shapes_0.7.3-9-g0991e05-2023.02.03.12.50_amd64.deb

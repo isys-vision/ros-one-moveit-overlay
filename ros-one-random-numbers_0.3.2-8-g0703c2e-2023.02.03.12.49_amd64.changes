@@ -1,0 +1,30 @@
+Format: 1.8
+Date: Tue, 27 Feb 2018 00:00:00 -0000
+Source: ros-one-random-numbers
+Binary: ros-one-random-numbers
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.3.2-8-g0703c2e-2023.02.03.12.49
+Distribution: jammy
+Urgency: high
+Maintainer: Steven! Ragnarök <stevenragnarok@osrfoundation.org>
+Changed-By: Steven! Ragnarök <stevenragnarok@osrfoundation.org>
+Description:
+ ros-one-random-numbers - This library contains wrappers for generating floating point valu
+Changes:
+ ros-one-random-numbers (0.3.2-8-g0703c2e-2023.02.03.12.49) jammy; urgency=high
+ .
+   * Update maintainership. (#11 <https://github.com/ros-planning/random_numbers/issues/11>)
+   * Contributors: Steven! Ragnarök
+Checksums-Sha1:
+ f5d429825f2c7d75050423f6e700aea32433c0aa 169396 ros-one-random-numbers-dbgsym_0.3.2-8-g0703c2e-2023.02.03.12.49_amd64.ddeb
+ 07f1ca854fe178c8cce0e7a00f297a056100e07d 14908 ros-one-random-numbers_0.3.2-8-g0703c2e-2023.02.03.12.49_amd64.buildinfo
+ 77483a87f2170add6a3fd61f99d2bbaed0dd91d5 25772 ros-one-random-numbers_0.3.2-8-g0703c2e-2023.02.03.12.49_amd64.deb
+Checksums-Sha256:
+ a2e1275b86ff0a2611fef5de6a59aa186a0541fbe02ed01bc473d91e887bbe03 169396 ros-one-random-numbers-dbgsym_0.3.2-8-g0703c2e-2023.02.03.12.49_amd64.ddeb
+ 93669115deeb483687bf35fb4e7cf92b9d183ebbf2aa0036a0ea0dbdf6d2c8ee 14908 ros-one-random-numbers_0.3.2-8-g0703c2e-2023.02.03.12.49_amd64.buildinfo
+ 362a158dc6c1712296d8ead9c4cee19a04617e75060ea5ab79bcd549e47fc877 25772 ros-one-random-numbers_0.3.2-8-g0703c2e-2023.02.03.12.49_amd64.deb
+Files:
+ 38d21e8f30ec728d36758d66e404f310 169396 debug optional ros-one-random-numbers-dbgsym_0.3.2-8-g0703c2e-2023.02.03.12.49_amd64.ddeb
+ 9bc020f89961f2b0be4b718c987aea41 14908 misc optional ros-one-random-numbers_0.3.2-8-g0703c2e-2023.02.03.12.49_amd64.buildinfo
+ 77adc7ff735033ff5564e44c38489a0d 25772 misc optional ros-one-random-numbers_0.3.2-8-g0703c2e-2023.02.03.12.49_amd64.deb

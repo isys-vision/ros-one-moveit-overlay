@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Thu, 25 Aug 2022 00:00:00 -0000
+Source: ros-one-ros-industrial-cmake-boilerplate
+Binary: ros-one-ros-industrial-cmake-boilerplate
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2023.02.03.12.52
+Distribution: jammy
+Urgency: high
+Maintainer: Levi Armstrong <Levi.Armstrong@swri.org>
+Changed-By: Levi Armstrong <Levi.Armstrong@swri.org>
+Description:
+ ros-one-ros-industrial-cmake-boilerplate - Contains boilerplate cmake script, macros and utils
+Changes:
+ ros-one-ros-industrial-cmake-boilerplate (0-2023.02.03.12.52) jammy; urgency=high
+ .
+   * Fix code coverage macro to support plain visibility
+   * Contributors: Levi Armstrong
+Checksums-Sha1:
+ 9bd66e58ecbd791c0749f2b49b959e3c926e648a 8097 ros-one-ros-industrial-cmake-boilerplate_0-2023.02.03.12.52_amd64.buildinfo
+ 587848b876e256745d6751f63f3d08dee19040eb 14928 ros-one-ros-industrial-cmake-boilerplate_0-2023.02.03.12.52_amd64.deb
+Checksums-Sha256:
+ 80824169db166f19f87dd4bf8ddee7b7eddb54f0a5f54fa93f84ff84045cb021 8097 ros-one-ros-industrial-cmake-boilerplate_0-2023.02.03.12.52_amd64.buildinfo
+ f0b04e1a39e3e415a558fa23ef61c83df39c3489abfcc485fd2b4146bd4f982f 14928 ros-one-ros-industrial-cmake-boilerplate_0-2023.02.03.12.52_amd64.deb
+Files:
+ f6870908e7b2b88841e5e65594e4baa2 8097 misc optional ros-one-ros-industrial-cmake-boilerplate_0-2023.02.03.12.52_amd64.buildinfo
+ a38627ebc004043ee93aa5cbcf7d26a2 14928 misc optional ros-one-ros-industrial-cmake-boilerplate_0-2023.02.03.12.52_amd64.deb

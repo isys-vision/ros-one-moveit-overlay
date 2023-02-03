@@ -1,0 +1,192 @@
+collada_parser:
+  ubuntu:
+  - ros-one-collada-parser
+eigenpy:
+  ubuntu:
+  - ros-one-eigenpy
+franka_description:
+  ubuntu:
+  - ros-one-franka-description
+franka_gripper:
+  ubuntu:
+  - ros-one-franka-gripper
+franka_msgs:
+  ubuntu:
+  - ros-one-franka-msgs
+franka_hw:
+  ubuntu:
+  - ros-one-franka-hw
+franka_control:
+  ubuntu:
+  - ros-one-franka-control
+franka_example_controllers:
+  ubuntu:
+  - ros-one-franka-example-controllers
+franka_gazebo:
+  ubuntu:
+  - ros-one-franka-gazebo
+franka_ros:
+  ubuntu:
+  - ros-one-franka-ros
+franka_visualization:
+  ubuntu:
+  - ros-one-franka-visualization
+moveit:
+  ubuntu:
+  - ros-one-moveit
+moveit_planners:
+  ubuntu:
+  - ros-one-moveit-planners
+moveit_plugins:
+  ubuntu:
+  - ros-one-moveit-plugins
+moveit_resources:
+  ubuntu:
+  - ros-one-moveit-resources
+moveit_resources_dual_panda_moveit_config:
+  ubuntu:
+  - ros-one-moveit-resources-dual-panda-moveit-config
+moveit_resources_fanuc_description:
+  ubuntu:
+  - ros-one-moveit-resources-fanuc-description
+moveit_resources_fanuc_moveit_config:
+  ubuntu:
+  - ros-one-moveit-resources-fanuc-moveit-config
+moveit_commander:
+  ubuntu:
+  - ros-one-moveit-commander
+moveit_resources_panda_description:
+  ubuntu:
+  - ros-one-moveit-resources-panda-description
+moveit_resources_panda_moveit_config:
+  ubuntu:
+  - ros-one-moveit-resources-panda-moveit-config
+moveit_resources_pr2_description:
+  ubuntu:
+  - ros-one-moveit-resources-pr2-description
+moveit_resources_prbt_moveit_config:
+  ubuntu:
+  - ros-one-moveit-resources-prbt-moveit-config
+moveit_resources_prbt_pg70_support:
+  ubuntu:
+  - ros-one-moveit-resources-prbt-pg70-support
+moveit_resources_prbt_support:
+  ubuntu:
+  - ros-one-moveit-resources-prbt-support
+moveit_ros:
+  ubuntu:
+  - ros-one-moveit-ros
+moveit_runtime:
+  ubuntu:
+  - ros-one-moveit-runtime
+panda_moveit_config:
+  ubuntu:
+  - ros-one-panda-moveit-config
+random_numbers:
+  ubuntu:
+  - ros-one-random-numbers
+geometric_shapes:
+  ubuntu:
+  - ros-one-geometric-shapes
+collada_urdf:
+  ubuntu:
+  - ros-one-collada-urdf
+ros_industrial_cmake_boilerplate:
+  ubuntu:
+  - ros-one-ros-industrial-cmake-boilerplate
+opw_kinematics:
+  ubuntu:
+  - ros-one-opw-kinematics
+ruckig:
+  ubuntu:
+  - ros-one-ruckig
+rviz_visual_tools:
+  ubuntu:
+  - ros-one-rviz-visual-tools
+srdfdom:
+  ubuntu:
+  - ros-one-srdfdom
+moveit_core:
+  ubuntu:
+  - ros-one-moveit-core
+chomp_motion_planner:
+  ubuntu:
+  - ros-one-chomp-motion-planner
+moveit_chomp_optimizer_adapter:
+  ubuntu:
+  - ros-one-moveit-chomp-optimizer-adapter
+moveit_resources_prbt_ikfast_manipulator_plugin:
+  ubuntu:
+  - ros-one-moveit-resources-prbt-ikfast-manipulator-plugin
+moveit_ros_occupancy_map_monitor:
+  ubuntu:
+  - ros-one-moveit-ros-occupancy-map-monitor
+moveit_ros_planning:
+  ubuntu:
+  - ros-one-moveit-ros-planning
+moveit_fake_controller_manager:
+  ubuntu:
+  - ros-one-moveit-fake-controller-manager
+moveit_kinematics:
+  ubuntu:
+  - ros-one-moveit-kinematics
+moveit_opw_kinematics_plugin:
+  ubuntu:
+  - ros-one-moveit-opw-kinematics-plugin
+moveit_planners_ompl:
+  ubuntu:
+  - ros-one-moveit-planners-ompl
+moveit_ros_move_group:
+  ubuntu:
+  - ros-one-moveit-ros-move-group
+moveit_ros_manipulation:
+  ubuntu:
+  - ros-one-moveit-ros-manipulation
+moveit_ros_perception:
+  ubuntu:
+  - ros-one-moveit-ros-perception
+moveit_ros_robot_interaction:
+  ubuntu:
+  - ros-one-moveit-ros-robot-interaction
+moveit_simple_controller_manager:
+  ubuntu:
+  - ros-one-moveit-simple-controller-manager
+moveit_ros_control_interface:
+  ubuntu:
+  - ros-one-moveit-ros-control-interface
+moveit_visual_tools:
+  ubuntu:
+  - ros-one-moveit-visual-tools
+pilz_industrial_motion_planner_testutils:
+  ubuntu:
+  - ros-one-pilz-industrial-motion-planner-testutils
+warehouse_ros:
+  ubuntu:
+  - ros-one-warehouse-ros
+moveit_ros_warehouse:
+  ubuntu:
+  - ros-one-moveit-ros-warehouse
+moveit_ros_benchmarks:
+  ubuntu:
+  - ros-one-moveit-ros-benchmarks
+moveit_ros_planning_interface:
+  ubuntu:
+  - ros-one-moveit-ros-planning-interface
+moveit_planners_chomp:
+  ubuntu:
+  - ros-one-moveit-planners-chomp
+moveit_ros_visualization:
+  ubuntu:
+  - ros-one-moveit-ros-visualization
+moveit_servo:
+  ubuntu:
+  - ros-one-moveit-servo
+moveit_setup_assistant:
+  ubuntu:
+  - ros-one-moveit-setup-assistant
+moveit_tutorials:
+  ubuntu:
+  - ros-one-moveit-tutorials
+pilz_industrial_motion_planner:
+  ubuntu:
+  - ros-one-pilz-industrial-motion-planner

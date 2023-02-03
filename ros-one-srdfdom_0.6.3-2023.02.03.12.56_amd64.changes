@@ -1,0 +1,36 @@
+Format: 1.8
+Date: Sun, 30 Jan 2022 00:00:00 -0000
+Source: ros-one-srdfdom
+Binary: ros-one-srdfdom
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.6.3-2023.02.03.12.56
+Distribution: jammy
+Urgency: high
+Maintainer: MoveIt Release Team <moveit_releasers@googlegroups.com>
+Changed-By: MoveIt Release Team <moveit_releasers@googlegroups.com>
+Description:
+ ros-one-srdfdom - Parser for Semantic Robot Description Format (SRDF).
+Changes:
+ ros-one-srdfdom (0.6.3-2023.02.03.12.56) jammy; urgency=high
+ .
+   * Drop -std=c++11 (#99 <https://github.com/ros-planning/srdfdom/issues/99>)
+   * Introduce ``<disable_default_collisions>`` and ``<enable_collisions>`` tags (#97 <https://github.com/ros-planning/srdfdom/issues/97>)
+ .
+       * Extend SRDF syntax to allow disabling of collisions for all pairs involving a specific link: ``<disable_default_collisions link="link_name"/>``
+       * Individual pairs can be re-enabled like this: ``<enable_collisions link1="link1_name" link2="link2_name" reason="optional-reason"/>``
+       * The old behavior of disabling individual pairs is possible as well: ``<disable_collisions link1="link1_name" link2="link2_name" reason="optional-reason"/>``
+ .
+   * Contributors: Robert Haschke, Jochen Sprickerhof
+Checksums-Sha1:
+ 342b846658d8b69a82d019eaa835921f1660d3c7 734156 ros-one-srdfdom-dbgsym_0.6.3-2023.02.03.12.56_amd64.ddeb
+ 335bfc10a92e99aeeec07f739c8c1d833894eae0 18429 ros-one-srdfdom_0.6.3-2023.02.03.12.56_amd64.buildinfo
+ 54663129c29f3a3b19d846f4be73c145fa1211cc 60292 ros-one-srdfdom_0.6.3-2023.02.03.12.56_amd64.deb
+Checksums-Sha256:
+ 144493759d1938b405657f3af356396bbe526b6d5e4401642fc2139da5b941a4 734156 ros-one-srdfdom-dbgsym_0.6.3-2023.02.03.12.56_amd64.ddeb
+ 0ab3b6bc47f1d14b53eb16c38f8b34776f70bff2190d09c0b465e7f51f190b03 18429 ros-one-srdfdom_0.6.3-2023.02.03.12.56_amd64.buildinfo
+ b14d0933f65e85e7ed7f019f43a33e279f13859d51ea17c2654e070eac4722dc 60292 ros-one-srdfdom_0.6.3-2023.02.03.12.56_amd64.deb
+Files:
+ 1366986bb2637e05b5a6719da6868cfc 734156 debug optional ros-one-srdfdom-dbgsym_0.6.3-2023.02.03.12.56_amd64.ddeb
+ 8ddffd76618baeb88e55939836e9a435 18429 misc optional ros-one-srdfdom_0.6.3-2023.02.03.12.56_amd64.buildinfo
+ b00b776070fcab147f44043ee3152922 60292 misc optional ros-one-srdfdom_0.6.3-2023.02.03.12.56_amd64.deb

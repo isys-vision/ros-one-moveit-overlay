@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Thu, 18 Nov 2021 00:00:00 -0000
+Source: ros-one-moveit-resources-panda-description
+Binary: ros-one-moveit-resources-panda-description
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.8.2-5-g0be98e1-2023.02.03.12.43
+Distribution: jammy
+Urgency: high
+Maintainer: MoveIt Release Team <moveit_releasers@googlegroups.com>
+Changed-By: MoveIt Release Team <moveit_releasers@googlegroups.com>
+Description:
+ ros-one-moveit-resources-panda-description - panda Resources used for MoveIt! testing
+Changes:
+ ros-one-moveit-resources-panda-description (0.8.2-5-g0be98e1-2023.02.03.12.43) jammy; urgency=high
+ .
+   * Fix transparency of meshes for Gazebo 8 (https://github.com/frankaemika/franka_ros/pull/79)
+   * Contributors: Robert Haschke
+Checksums-Sha1:
+ ddc6f0d68a77c4669f02d3817c744d33ad268c43 12355 ros-one-moveit-resources-panda-description_0.8.2-5-g0be98e1-2023.02.03.12.43_amd64.buildinfo
+ 8706f0a3bb7cb39a0623cef407bcab54a50db80e 3138754 ros-one-moveit-resources-panda-description_0.8.2-5-g0be98e1-2023.02.03.12.43_amd64.deb
+Checksums-Sha256:
+ d90fdeab7eff72bd4a4f402b3937e2a24d1239a010bad90b397882fdc2e7d5b7 12355 ros-one-moveit-resources-panda-description_0.8.2-5-g0be98e1-2023.02.03.12.43_amd64.buildinfo
+ e179c52e76f050650efae232dbdefc57b5b43f8220233b2a7dab129d74f78f66 3138754 ros-one-moveit-resources-panda-description_0.8.2-5-g0be98e1-2023.02.03.12.43_amd64.deb
+Files:
+ ff2f213c92b6b3d9ae20564e36287f52 12355 misc optional ros-one-moveit-resources-panda-description_0.8.2-5-g0be98e1-2023.02.03.12.43_amd64.buildinfo
+ 0ca382be806b8d5e8f9280af3930c1ac 3138754 misc optional ros-one-moveit-resources-panda-description_0.8.2-5-g0be98e1-2023.02.03.12.43_amd64.deb

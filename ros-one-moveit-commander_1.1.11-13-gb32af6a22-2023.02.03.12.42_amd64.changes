@@ -1,0 +1,34 @@
+Format: 1.8
+Date: Wed, 21 Dec 2022 00:00:00 -0000
+Source: ros-one-moveit-commander
+Binary: ros-one-moveit-commander
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.1.11-13-gb32af6a22-2023.02.03.12.42
+Distribution: jammy
+Urgency: high
+Maintainer: Michael Görner <me@v4hn.de>
+Changed-By: Michael Görner <me@v4hn.de>
+Description:
+ ros-one-moveit-commander - Python interfaces to MoveIt
+Changes:
+ ros-one-moveit-commander (1.1.11-13-gb32af6a22-2023.02.03.12.42) jammy; urgency=high
+ .
+   * Fix some consistency issues in PlanningScene handling (#3298 <https://github.com/ros-planning/moveit/issues/3298>)
+ .
+       * Allow Plane collision-object creation from rviz
+       * Allow to create cone collision-object from python PSI
+       * rviz: Visualize PLANE shapes as a large, thin box
+ .
+   * Merge fixes+improvements to ``PlanningScene`` editing in rviz: #3263 <https://github.com/ros-planning/moveit/issues/3263>, #3264 <https://github.com/ros-planning/moveit/issues/3264>, #3296 <https://github.com/ros-planning/moveit/issues/3296>
+   * ``moveit_commander.PlanningSceneInterface``: use synchronous interface by default
+   * Contributors: Robert Haschke
+Checksums-Sha1:
+ 9a91d9bcd03b87e3b99b5fad25ae67ed64f02cfc 16661 ros-one-moveit-commander_1.1.11-13-gb32af6a22-2023.02.03.12.42_amd64.buildinfo
+ 655e1bddc9bd3d909bcdae5f5ab5c00068602fe9 48818 ros-one-moveit-commander_1.1.11-13-gb32af6a22-2023.02.03.12.42_amd64.deb
+Checksums-Sha256:
+ 31661516b93d7cc6aa7ecd54d06a16d6b02476535dd3310b30018595298786f0 16661 ros-one-moveit-commander_1.1.11-13-gb32af6a22-2023.02.03.12.42_amd64.buildinfo
+ a1eeded17854dc084d1dfea48ed1dbd123bb16fb040adbee1ac34683e4bb336d 48818 ros-one-moveit-commander_1.1.11-13-gb32af6a22-2023.02.03.12.42_amd64.deb
+Files:
+ c000934a35fc9125dfa90669cac8204d 16661 misc optional ros-one-moveit-commander_1.1.11-13-gb32af6a22-2023.02.03.12.42_amd64.buildinfo
+ f1ee4d1a37ea0489a786c1b5a86f2dd0 48818 misc optional ros-one-moveit-commander_1.1.11-13-gb32af6a22-2023.02.03.12.42_amd64.deb

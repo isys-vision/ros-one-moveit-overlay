@@ -1,0 +1,33 @@
+Format: 1.8
+Date: Tue, 10 May 2022 00:00:00 -0000
+Source: ros-one-warehouse-ros
+Binary: ros-one-warehouse-ros
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.9.5-2023.02.03.13.05
+Distribution: jammy
+Urgency: high
+Maintainer: MoveIt Release Team <moveit_releasers@googlegroups.com>
+Changed-By: MoveIt Release Team <moveit_releasers@googlegroups.com>
+Description:
+ ros-one-warehouse-ros - Persistent storage of ROS messages
+Changes:
+ ros-one-warehouse-ros (0.9.5-2023.02.03.13.05) jammy; urgency=high
+ .
+   * Drop compile option -std=c++11 (C++11 or later is default anyway) (#92 <https://github.com/ros-planning/warehouse_ros/issues/92>)
+   * Remove user-provided constructors and destructors (#51 <https://github.com/ros-planning/warehouse_ros/issues/51>)
+     ``ResultIterator::metadata_only_`` is now non-const to allow moving and assigning
+   * Add virtual destructor to ``MessageCollectionHelper`` and ``ResultIteratorHelper`` (#50 <https://github.com/ros-planning/warehouse_ros/issues/50>)
+   * Contributors: Bjar Ne, Jochen Sprickerhof
+Checksums-Sha1:
+ f3e299590d1da1502e23c8bd941db56ad42a74ad 1068454 ros-one-warehouse-ros-dbgsym_0.9.5-2023.02.03.13.05_amd64.ddeb
+ ca7801c8a79511c78545e1bc21e6f32aebf9b2a3 15554 ros-one-warehouse-ros_0.9.5-2023.02.03.13.05_amd64.buildinfo
+ d94b2085df847a56bad947b9cab82c8b4d9bed16 86516 ros-one-warehouse-ros_0.9.5-2023.02.03.13.05_amd64.deb
+Checksums-Sha256:
+ 7ece9f526aa7af9d1d6211e131ff103dbce56ca57f45f7e13720f99f64471086 1068454 ros-one-warehouse-ros-dbgsym_0.9.5-2023.02.03.13.05_amd64.ddeb
+ 0214f98118eb5ad7abffd2039d5094250e1b7ef19ce71865d5c76e4036693bae 15554 ros-one-warehouse-ros_0.9.5-2023.02.03.13.05_amd64.buildinfo
+ 923db95bbde2e46cc5f3f0dc4ad63925bda45eb40120b4403652534d5852d54b 86516 ros-one-warehouse-ros_0.9.5-2023.02.03.13.05_amd64.deb
+Files:
+ e3103ea125442348249f371d98909c86 1068454 debug optional ros-one-warehouse-ros-dbgsym_0.9.5-2023.02.03.13.05_amd64.ddeb
+ dc4db100da675c2d8b655a9d83b4a8ac 15554 misc optional ros-one-warehouse-ros_0.9.5-2023.02.03.13.05_amd64.buildinfo
+ bd4f59da223ae977e0634a81e984bad0 86516 misc optional ros-one-warehouse-ros_0.9.5-2023.02.03.13.05_amd64.deb

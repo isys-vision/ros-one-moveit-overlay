@@ -1,0 +1,24 @@
+Format: 1.8
+Date: Wed, 21 Dec 2022 00:00:00 -0000
+Source: ros-one-moveit-planners
+Binary: ros-one-moveit-planners
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.1.11-13-gb32af6a22-2023.02.03.12.39
+Distribution: jammy
+Urgency: high
+Maintainer: Dave Coleman <dave@picknik.ai>
+Changed-By: Dave Coleman <dave@picknik.ai>
+Description:
+ ros-one-moveit-planners - Metapacakge that installs all available planners for MoveIt
+Changes:
+ ros-one-moveit-planners (1.1.11-13-gb32af6a22-2023.02.03.12.39) jammy; urgency=high
+Checksums-Sha1:
+ 874d66cf85be7b196e62687a227fcdf8911cba19 7798 ros-one-moveit-planners_1.1.11-13-gb32af6a22-2023.02.03.12.39_amd64.buildinfo
+ 09f70dbbfa656c7b71e288662b4391774d07e7e7 2312 ros-one-moveit-planners_1.1.11-13-gb32af6a22-2023.02.03.12.39_amd64.deb
+Checksums-Sha256:
+ 42057fcb9ea06c8cecf78f87ff8ec9410ecfa0c39c14fa287749ea5ef0356f5c 7798 ros-one-moveit-planners_1.1.11-13-gb32af6a22-2023.02.03.12.39_amd64.buildinfo
+ 52451e4ff7b8f0c5b538d4f3968b368858ab3c1f0bb0454d7d322fc2670901be 2312 ros-one-moveit-planners_1.1.11-13-gb32af6a22-2023.02.03.12.39_amd64.deb
+Files:
+ 82493b40e8d95eb6e2e2cb1468a2e554 7798 misc optional ros-one-moveit-planners_1.1.11-13-gb32af6a22-2023.02.03.12.39_amd64.buildinfo
+ cd86c7f597a8dff78d2d52dea34d56a5 2312 misc optional ros-one-moveit-planners_1.1.11-13-gb32af6a22-2023.02.03.12.39_amd64.deb
