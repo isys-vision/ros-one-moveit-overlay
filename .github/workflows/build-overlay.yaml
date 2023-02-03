@@ -11,7 +11,7 @@ jobs:
       ROS_DISTRO: one
       DEB_DISTRO: jammy
     steps:
-      - uses: v4hn/ros-deb-builder-action@rosotest2
+      - uses: v4hn/ros-deb-builder-action@rosotest
         with:
           ROS_DISTRO: ${{ env.ROS_DISTRO }}
           DEB_DISTRO: ${{ env.DEB_DISTRO }}
