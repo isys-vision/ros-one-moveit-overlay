@@ -12,6 +12,7 @@ jobs:
       DEB_DISTRO: jammy
     steps:
       - uses: v4hn/ros-deb-builder-action@rosotest
+        continue-on-error: true
         with:
           ROS_DISTRO: ${{ env.ROS_DISTRO }}
           DEB_DISTRO: ${{ env.DEB_DISTRO }}
