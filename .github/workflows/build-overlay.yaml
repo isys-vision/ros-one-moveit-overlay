@@ -12,20 +12,19 @@ jobs:
       DEB_DISTRO: jammy
     steps:
       - uses: v4hn/ros-deb-builder-action@rosotest
-        continue-on-error: true
         with:
           ROS_DISTRO: ${{ env.ROS_DISTRO }}
           DEB_DISTRO: ${{ env.DEB_DISTRO }}
-          REPOS_FILE: sources.repos # default value
+          REPOS_FILE: sources.repos
           ROSDEP_SOURCE: |
             rosdep.yaml
+            https://raw.githubusercontent.com/v4hn/ros-o-builder/main/rosdep.yaml
             https://raw.githubusercontent.com/v4hn/ros-o-builder/jammy-one/local.yaml
           DEB_REPOSITORY: |
             deb [trusted=yes] https://raw.githubusercontent.com/v4hn/ros-o-builder/jammy-one/ ./
-          CONTINUE_ON_ERROR: true
+          CONTINUE_ON_ERROR: false
 
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          BRANCH: ${{ env.DEB_DISTRO }}-${{ env.ROS_DISTRO }}-overlay # override default push branch DEB_DISTRO-ROS_DISTRO
           PUSH_ON_ERROR: true
           SQUASH_HISTORY: true
       - uses: docker://lpenz/ghaction-packagecloud:0.4
