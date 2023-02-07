@@ -30,5 +30,6 @@ jobs:
       - uses: docker://lpenz/ghaction-packagecloud:0.4
         with:
           repository: simonschmeisser/moveit
+          folder: /home/runner/apt_repo
         env:
           PACKAGECLOUD_TOKEN: ${{ secrets.PACKAGECLOUD_TOKEN }}
