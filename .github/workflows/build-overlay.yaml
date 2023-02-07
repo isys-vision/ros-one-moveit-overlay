@@ -28,8 +28,6 @@ jobs:
           PUSH_ON_ERROR: true
           SQUASH_HISTORY: true
       - uses: docker://lpenz/ghaction-packagecloud:0.4
-        volumes:
-          - /home/runner/apt_repo:/home/runner/apt_repo
         with:
           repository: simonschmeisser/moveit
           folder: /home/runner/apt_repo
