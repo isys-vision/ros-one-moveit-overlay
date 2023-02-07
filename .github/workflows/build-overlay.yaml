@@ -27,3 +27,8 @@ jobs:
           BRANCH: ${{ env.DEB_DISTRO }}-${{ env.ROS_DISTRO }}-overlay # override default push branch DEB_DISTRO-ROS_DISTRO
           PUSH_ON_ERROR: true
           SQUASH_HISTORY: true
+      - uses: docker://lpenz/ghaction-packagecloud:0.4
+        with:
+          repository: simonschmeisser/moveit
+        env:
+          PACKAGECLOUD_TOKEN: ${{ secrets.PACKAGECLOUD_TOKEN }}
