@@ -32,4 +32,6 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
             name: my-artifact
-            path: /home/runner/apt_repo/*
+            path: |
+              /home/runner/apt_repo/*
+              !/home/runner/apt_repo/*.build
