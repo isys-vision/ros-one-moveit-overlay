@@ -28,6 +28,11 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           PUSH_ON_ERROR: true
           SQUASH_HISTORY: true
+      - name: "Artifacts"
+        uses: actions/upload-artifact@v3
+        with:
+            name: my-artifact
+            path: /home/runner/apt_repo/*
       - name: "Copy"
         run: cp -R /home/runner/apt_repo /home/runner/work/_temp/_github_home/
       - uses: docker://lpenz/ghaction-packagecloud:0.4
