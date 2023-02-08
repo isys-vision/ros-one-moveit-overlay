@@ -33,8 +33,8 @@ jobs:
         with:
             name: my-artifact
             path: |
-              /home/runner/apt_repo/*
-              !/home/runner/apt_repo/*.build
+              /home/runner/apt_repo/*.deb
+              /home/runner/apt_repo/*.ddeb
       - name: "Copy"
         run: cp -R /home/runner/apt_repo /home/runner/work/_temp/_github_home/
       - uses: docker://lpenz/ghaction-packagecloud:0.4
