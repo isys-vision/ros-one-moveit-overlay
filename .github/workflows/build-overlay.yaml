@@ -28,8 +28,8 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           PUSH_ON_ERROR: true
           SQUASH_HISTORY: true
-      - uses: docker://lpenz/ghaction-packagecloud:0.4
+      - name: "Artifacts"
+        uses: actions/upload-artifact@v3
         with:
-          repository: simonschmeisser/moveit
-        env:
-          PACKAGECLOUD_TOKEN: ${{ secrets.PACKAGECLOUD_TOKEN }}
+            name: my-artifact
+            path: /home/runner/apt_repo/*
