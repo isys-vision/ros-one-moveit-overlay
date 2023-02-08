@@ -33,5 +33,6 @@ jobs:
         with:
             name: my-artifact
             path: |
-              /home/runner/apt_repo/*
-              !/home/runner/apt_repo/*.build
+              /home/runner/apt_repo/*.deb
+              /home/runner/apt_repo/*.ddeb
+
