@@ -35,4 +35,6 @@ jobs:
             path: |
               /home/runner/apt_repo/*.deb
               /home/runner/apt_repo/*.ddeb
+              /home/runner/apt_repo/*.md
+              /home/runner/apt_repo/*.log
 
