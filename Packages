@@ -1,0 +1,74 @@
+Package: ros-one-geometric-shapes-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 0.7.3-9-g0991e05-2023.02.09.09.08
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-one-geometric-shapes
+Maintainer: Tyler Weaver <tyler@picknik.ai>
+Installed-Size: 3814
+Depends: ros-one-geometric-shapes (= 0.7.3-9-g0991e05-2023.02.09.09.08)
+Filename: ./ros-one-geometric-shapes-dbgsym_0.7.3-9-g0991e05-2023.02.09.09.08_amd64.ddeb
+Size: 3801752
+MD5sum: 2c41210aad33c48fd41b2bf7d86ad13b
+SHA1: fb9f8c0d80c860d390870a8832fde8b7b961db1b
+SHA256: b8ce5d0c6ee6c78b049858b1a1f069105dec9ff98bb494bab59a7e3e71d5eccc
+SHA512: 2411246db1d98841e8989c79cd1cabeeda666808df353df2d59650dc7b3045670c3e94406f15baf91a3dd29dcb36cfb236c4b6682288800a69a5fc19f8d9f0d8
+Description: debug symbols for ros-one-geometric-shapes
+Build-Ids: 748aa9b5a8befee90b03759267f0af41937c078a
+
+Package: ros-one-geometric-shapes
+Architecture: amd64
+Version: 0.7.3-9-g0991e05-2023.02.09.09.08
+Priority: optional
+Section: misc
+Maintainer: Tyler Weaver <tyler@picknik.ai>
+Installed-Size: 299
+Depends: libassimp5 (>= 5.2.2~ds0), libc6 (>= 2.32), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libfcl0.7 (>= 0.7.0), libgcc-s1 (>= 3.3.1), libqhull-r8.0 (>= 2020.1), libstdc++6 (>= 11), libassimp-dev, libboost-all-dev, libconsole-bridge-dev, libdynamicedt3d-dev, libeigen3-dev, libfcl-dev, liboctomap-dev, libqhull-dev, librandom-numbers-dev, ros-one-eigen-stl-containers, ros-one-resource-retriever, ros-one-shape-msgs, ros-one-visualization-msgs
+Filename: ./ros-one-geometric-shapes_0.7.3-9-g0991e05-2023.02.09.09.08_amd64.deb
+Size: 87678
+MD5sum: 079946414bfe71579bd2f24062f059b8
+SHA1: 5cb10a1d68777b9f58dae041a10297079dee4055
+SHA256: b3e8a1a837bec2247274fcd2af4dc893f749c68e862f0d5d54e0643619b92306
+SHA512: 0c0d389438a684da3347dd59a7c0c8094b2cbd4614a648eec366cc0b963ff2be7c6e55c0448c0ce4d2c670ce7a5c0128a827089afe617009ca394abd26b24323
+Homepage: http://ros.org/wiki/geometric_shapes
+Description: Generic definitions of geometric shapes and bodies.
+
+Package: ros-one-srdfdom-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 0.6.3-2023.02.09.09.11
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-one-srdfdom
+Maintainer: MoveIt Release Team <moveit_releasers@googlegroups.com>
+Installed-Size: 766
+Depends: ros-one-srdfdom (= 0.6.3-2023.02.09.09.11)
+Filename: ./ros-one-srdfdom-dbgsym_0.6.3-2023.02.09.09.11_amd64.ddeb
+Size: 734102
+MD5sum: 31c1750a7f23233c76c6b18722503741
+SHA1: f0e4f61e5418feb04e19ed1604dca6c4d987249f
+SHA256: 5a0196a3ecbecb4162ed727ac19463206f0241a0acb183b8d04d120fded484ca
+SHA512: 2d246b2ba34b785c2050836ec2a19230ffd2f22065fba720598ea52220c75448a026e0411650643b82195b15d18e7bacdbc98589953052e39b08b23f95cb5a4a
+Description: debug symbols for ros-one-srdfdom
+Build-Ids: 74df4b99270b68b081b77161a6f9082003d11d9c
+
+Package: ros-one-srdfdom
+Architecture: amd64
+Version: 0.6.3-2023.02.09.09.11
+Priority: optional
+Section: misc
+Maintainer: MoveIt Release Team <moveit_releasers@googlegroups.com>
+Installed-Size: 197
+Depends: libc6 (>= 2.32), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), libtinyxml2-9 (>= 8.0.0), libboost-all-dev, libtinyxml2-dev, ros-one-urdf, ros-one-urdfdom-py
+Filename: ./ros-one-srdfdom_0.6.3-2023.02.09.09.11_amd64.deb
+Size: 60288
+MD5sum: c70e8dc13aab360afb2d95677ee2acc7
+SHA1: beace2269e8df716786dbaa57593460b6c25c2c4
+SHA256: 3cf857dc9e83ee394eae67811b87a9b6f4bed4ccdbc97e99f07a5b9ab9f522ee
+SHA512: a000ee8b96e3c478dc41cccd5f82e3c8a0dad656ee069625ae6d6c78aac6191a54440af90dafaf56e960f2e4fd33e37bf26feb01179ae03b7661b9d8be31daa4
+Homepage: http://ros.org/wiki/srdfdom
+Description: Parser for Semantic Robot Description Format (SRDF).
+

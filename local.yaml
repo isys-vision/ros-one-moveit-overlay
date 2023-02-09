@@ -1,0 +1,6 @@
+geometric_shapes:
+  ubuntu:
+  - ros-one-geometric-shapes
+srdfdom:
+  ubuntu:
+  - ros-one-srdfdom
