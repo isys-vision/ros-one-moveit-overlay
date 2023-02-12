@@ -31,10 +31,11 @@ jobs:
       - name: "Artifacts"
         uses: actions/upload-artifact@v3
         with:
-            name: my-artifact
+            name: ros-one-moveit
             path: |
               /home/runner/apt_repo/*.deb
               /home/runner/apt_repo/*.ddeb
               /home/runner/apt_repo/*.md
               /home/runner/apt_repo/*.log
+              /home/runner/apt_repo/*.yaml
 
