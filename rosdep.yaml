@@ -15,3 +15,6 @@ gtest:
   rhel: [gtest-devel]
   slackware: [gtest]
   ubuntu: [libgtest-dev]
+prbt_ikfast_manipulator_plugin:
+  ubuntu:
+    - ros-one-prbt-ikfast-manipulator-plugin
