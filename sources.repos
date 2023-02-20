@@ -61,5 +61,9 @@ repositories:
     version: noetic-devel
   industrial_robot_state_controller:
     type: git
-    url: https://github.com/gavanderhoorn/industrial_robot_status_controller.git
-    version: master
+    url: https://github.com/ros-o/industrial_robot_status_controller.git
+    version: obese-devel
+  gazebo-ros-pkgs:
+    type: git
+    url: https://github.com/ros-o/gazebo_ros_pkgs.git
+    version: obese-devel
