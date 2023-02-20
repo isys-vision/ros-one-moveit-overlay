@@ -55,3 +55,11 @@ repositories:
     type: git
     url: https://github.com/pantor/ruckig.git
     version: master
+  serial:
+    type: git
+    url: https://github.com/ros-drivers/rosserial.git
+    version: noetic-devel
+  industrial_robot_state_controller:
+    type: git
+    url: https://github.com/gavanderhoorn/industrial_robot_status_controller.git
+    version: master
