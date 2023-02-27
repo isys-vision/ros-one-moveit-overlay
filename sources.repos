@@ -13,8 +13,8 @@ repositories:
     version: noetic-devel
   moveit:
     type: git
-    url: https://github.com/v4hn/moveit.git
-    version: pr-master-pybind11
+    url: https://github.com/ros-planning/moveit.git
+    version: master
   rviz_visual_tools:
     type: git
     url: https://github.com/PickNikRobotics/rviz_visual_tools
@@ -63,3 +63,7 @@ repositories:
     type: git
     url: https://github.com/ros-o/industrial_robot_status_controller.git
     version: obese-devel
+  pybind11_catkin:
+    type: git
+    url: https://github.com/isys-vision/pybind11_catkin.git
+    version: use-system-pybind11
