@@ -67,3 +67,15 @@ repositories:
     type: git
     url: https://github.com/isys-vision/pybind11_catkin.git
     version: use-system-pybind11
+  rviz:
+    type: git
+    url: https://github.com/ros-visualization/rviz
+    version: noetic-devel
+  rqt_rviz:
+    type: git
+    url: https://github.com/ros-visualization/rqt_rviz.git
+    version: melodic-devel
+  gazebo_ros_pkgs:
+    type: git
+    url: https://github.com/ros-simulation/gazebo_ros_pkgs.git
+    version: noetic-devel
