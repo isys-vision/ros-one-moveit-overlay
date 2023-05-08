@@ -15,3 +15,9 @@ gtest:
 prbt_ikfast_manipulator_plugin:
   ubuntu:
     - ros-one-prbt-ikfast-manipulator-plugin
+libogre:
+  ubuntu:
+    - libogremain1.12.13
+libogre-dev:
+  ubuntu:
+    - libogre-1.12-dev
