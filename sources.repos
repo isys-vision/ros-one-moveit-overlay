@@ -3,3 +3,7 @@ repositories:
     type: git
     url: https://github.com/gavanderhoorn/industrial_robot_status_controller.git
     version: master
+  industrial_core:
+    type: git
+    url: https://github.com/isys-vision/industrial_core.git
+    version: mikado-noetic-compat
