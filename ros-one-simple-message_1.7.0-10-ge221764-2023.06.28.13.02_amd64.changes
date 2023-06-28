@@ -1,0 +1,32 @@
+Format: 1.8
+Date: Thu, 19 Sep 2019 00:00:00 -0000
+Source: ros-one-simple-message
+Binary: ros-one-simple-message
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.7.0-10-ge221764-2023.06.28.13.02
+Distribution: jammy
+Urgency: high
+Maintainer: G.A. vd. Hoorn (TU Delft Robotics Institute) <g.a.vanderhoorn@tudelft.nl>
+Changed-By: G.A. vd. Hoorn (TU Delft Robotics Institute) <g.a.vanderhoorn@tudelft.nl>
+Description:
+ ros-one-simple-message - simple_message defines a simple messaging connection and protocol
+Changes:
+ ros-one-simple-message (1.7.0-10-ge221764-2023.06.28.13.02) jammy; urgency=high
+ .
+   * Fix incorrect return value if deserializing duration fails on ``joint_traj_pt`` (#226 <https://github.com/ros-industrial/industrial_core/issues/226>)
+   * Updated all package xml files to version 2 (#232 <https://github.com/ros-industrial/industrial_core/issues/232>)
+   * all: update maintainer email addresses (#222 <https://github.com/ros-industrial/industrial_core/issues/222>)
+   * Contributors: Gonzalo Casas, Jeremy Zoss, Jorge Nicho, gavanderhoorn
+Checksums-Sha1:
+ b49cba94877217af89775548fafaf1a3ed6bf7eb 6153224 ros-one-simple-message-dbgsym_1.7.0-10-ge221764-2023.06.28.13.02_amd64.ddeb
+ 245b0cdbfae89da21e205ef0a35b03591a008ea4 12214 ros-one-simple-message_1.7.0-10-ge221764-2023.06.28.13.02_amd64.buildinfo
+ f09ba0ddfeb8c95ab12f732fcbae94af8ba18bda 149774 ros-one-simple-message_1.7.0-10-ge221764-2023.06.28.13.02_amd64.deb
+Checksums-Sha256:
+ 4945717525adde71865cbb1188a1e96243891f33f742332901899d78614cdae1 6153224 ros-one-simple-message-dbgsym_1.7.0-10-ge221764-2023.06.28.13.02_amd64.ddeb
+ 96177c0b8bce6b79bc8248d445839f020f004b5de73b45bff5dad9b5595de5d7 12214 ros-one-simple-message_1.7.0-10-ge221764-2023.06.28.13.02_amd64.buildinfo
+ 7f50782d8f3a2f551d7e9c23ea9523b4fb13f0c9df14dc3d9b7cda317dc693a6 149774 ros-one-simple-message_1.7.0-10-ge221764-2023.06.28.13.02_amd64.deb
+Files:
+ 7c95e4ad1f6ec73e10c967237b915121 6153224 debug optional ros-one-simple-message-dbgsym_1.7.0-10-ge221764-2023.06.28.13.02_amd64.ddeb
+ 3b36f7cd900fe8e52ad2428fa1003fef 12214 misc optional ros-one-simple-message_1.7.0-10-ge221764-2023.06.28.13.02_amd64.buildinfo
+ 1f89af8d41c3f9e6449e94c40f86292d 149774 misc optional ros-one-simple-message_1.7.0-10-ge221764-2023.06.28.13.02_amd64.deb

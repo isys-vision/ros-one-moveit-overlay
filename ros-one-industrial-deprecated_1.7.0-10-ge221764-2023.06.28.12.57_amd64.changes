@@ -1,0 +1,28 @@
+Format: 1.8
+Date: Thu, 19 Sep 2019 00:00:00 -0000
+Source: ros-one-industrial-deprecated
+Binary: ros-one-industrial-deprecated
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.7.0-10-ge221764-2023.06.28.12.57
+Distribution: jammy
+Urgency: high
+Maintainer: G.A. vd. Hoorn (TU Delft Robotics Institute) <g.a.vanderhoorn@tudelft.nl>
+Changed-By: G.A. vd. Hoorn (TU Delft Robotics Institute) <g.a.vanderhoorn@tudelft.nl>
+Description:
+ ros-one-industrial-deprecated - The Industrial deprecated package contains nodes, launch files, e
+Changes:
+ ros-one-industrial-deprecated (1.7.0-10-ge221764-2023.06.28.12.57) jammy; urgency=high
+ .
+   * Updated all package xml files to version 2 (#232 <https://github.com/ros-industrial/industrial_core/issues/232>)
+   * all: update maintainer email addresses (#222 <https://github.com/ros-industrial/industrial_core/issues/222>)
+   * Contributors: Jeremy Zoss, Jorge Nicho, gavanderhoorn
+Checksums-Sha1:
+ ec66001126979a2564bed1e83c093e459c26f17d 7816 ros-one-industrial-deprecated_1.7.0-10-ge221764-2023.06.28.12.57_amd64.buildinfo
+ abec2f6e51edabdb079776ed6b35a6ae893443c8 5404 ros-one-industrial-deprecated_1.7.0-10-ge221764-2023.06.28.12.57_amd64.deb
+Checksums-Sha256:
+ 9475e53abd16721e9e94aece79d20938c304f5fe22b725133d1dcd5f25d4dc34 7816 ros-one-industrial-deprecated_1.7.0-10-ge221764-2023.06.28.12.57_amd64.buildinfo
+ 9b67157c84bf3aa78c609eb1431942d9e3733f74acf67046e3577eb9b84c45af 5404 ros-one-industrial-deprecated_1.7.0-10-ge221764-2023.06.28.12.57_amd64.deb
+Files:
+ 7410c66e327299c42a567c2a69e6de75 7816 misc optional ros-one-industrial-deprecated_1.7.0-10-ge221764-2023.06.28.12.57_amd64.buildinfo
+ 2be186ee2097927de8f86e67d0fdb7e0 5404 misc optional ros-one-industrial-deprecated_1.7.0-10-ge221764-2023.06.28.12.57_amd64.deb

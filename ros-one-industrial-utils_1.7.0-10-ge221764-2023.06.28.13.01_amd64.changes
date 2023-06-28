@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Thu, 19 Sep 2019 00:00:00 -0000
+Source: ros-one-industrial-utils
+Binary: ros-one-industrial-utils
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.7.0-10-ge221764-2023.06.28.13.01
+Distribution: jammy
+Urgency: high
+Maintainer: G.A. vd. Hoorn (TU Delft Robotics Institute) <g.a.vanderhoorn@tudelft.nl>
+Changed-By: G.A. vd. Hoorn (TU Delft Robotics Institute) <g.a.vanderhoorn@tudelft.nl>
+Description:
+ ros-one-industrial-utils - Industrial utils is a library package that captures common funcit
+Changes:
+ ros-one-industrial-utils (1.7.0-10-ge221764-2023.06.28.13.01) jammy; urgency=high
+ .
+   * Updated all package xml files to version 2 (#232 <https://github.com/ros-industrial/industrial_core/issues/232>)
+   * all: update maintainer email addresses (#222 <https://github.com/ros-industrial/industrial_core/issues/222>)
+   * Contributors: Jeremy Zoss, Jorge Nicho, gavanderhoorn
+Checksums-Sha1:
+ a198e640ab940af34a67afe7b09dd71e1a136a21 451216 ros-one-industrial-utils-dbgsym_1.7.0-10-ge221764-2023.06.28.13.01_amd64.ddeb
+ 50d442162756f0018a7bfae46ebd2d7262c98c27 13593 ros-one-industrial-utils_1.7.0-10-ge221764-2023.06.28.13.01_amd64.buildinfo
+ 1f40db636ee87d1d34235cdcc4d8b20ee48f1c5f 32444 ros-one-industrial-utils_1.7.0-10-ge221764-2023.06.28.13.01_amd64.deb
+Checksums-Sha256:
+ 6c47bfb805b830a3a0409fb5d69faf62bb846d21dbe7ee8af305756ae2e89744 451216 ros-one-industrial-utils-dbgsym_1.7.0-10-ge221764-2023.06.28.13.01_amd64.ddeb
+ 0606d96d4fd52cc60bdbaa6eec85979e39073f4e543c2bbe003c2bf247a40008 13593 ros-one-industrial-utils_1.7.0-10-ge221764-2023.06.28.13.01_amd64.buildinfo
+ 99e1de1fbfb0fa120c5018b62ce3a2cf4deac4480c7f8329e06e2912c733c938 32444 ros-one-industrial-utils_1.7.0-10-ge221764-2023.06.28.13.01_amd64.deb
+Files:
+ 6c9e6cf9d4c7896443231548dd7757f8 451216 debug optional ros-one-industrial-utils-dbgsym_1.7.0-10-ge221764-2023.06.28.13.01_amd64.ddeb
+ 5983abe091508afe8b177257270dc55a 13593 misc optional ros-one-industrial-utils_1.7.0-10-ge221764-2023.06.28.13.01_amd64.buildinfo
+ 5bb33f85f19c2397a1d7f5d894f55f77 32444 misc optional ros-one-industrial-utils_1.7.0-10-ge221764-2023.06.28.13.01_amd64.deb

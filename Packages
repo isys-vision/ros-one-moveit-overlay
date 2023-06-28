@@ -1,0 +1,270 @@
+Package: ros-one-industrial-core
+Architecture: amd64
+Version: 1.7.0-10-ge221764-2023.06.28.12.57
+Priority: optional
+Section: misc
+Maintainer: G.A. vd. Hoorn (TU Delft Robotics Institute) <g.a.vanderhoorn@tudelft.nl>
+Installed-Size: 14
+Depends: ros-one-industrial-deprecated, ros-one-industrial-msgs, ros-one-industrial-robot-client, ros-one-industrial-robot-simulator, ros-one-industrial-trajectory-filters, ros-one-industrial-utils, ros-one-simple-message
+Filename: ./ros-one-industrial-core_1.7.0-10-ge221764-2023.06.28.12.57_amd64.deb
+Size: 2322
+MD5sum: be5d586be622746e9d99b378f2d9a5ac
+SHA1: 6778910bb2f48cbcba39faaaa2c868b38c4c368d
+SHA256: e08f2a0e05c3ddc500c16a732966ad0e73d871eb10180972fff0a93480a8d314
+SHA512: f22e7a35bbb5d37ecdc1cc1260c5e0f726f258beed3222a9fbbc1802907dda91d5c058e21c6da2916d6abd951ecb45ab324bd98296882b442ac47e01be18b5f0
+Homepage: http://ros.org/wiki/industrial_core
+Description: ROS-Industrial core stack contains packages and libraries for supporing industrial systems
+
+Package: ros-one-industrial-deprecated
+Architecture: amd64
+Version: 1.7.0-10-ge221764-2023.06.28.12.57
+Priority: optional
+Section: misc
+Maintainer: G.A. vd. Hoorn (TU Delft Robotics Institute) <g.a.vanderhoorn@tudelft.nl>
+Installed-Size: 28
+Filename: ./ros-one-industrial-deprecated_1.7.0-10-ge221764-2023.06.28.12.57_amd64.deb
+Size: 5404
+MD5sum: 2be186ee2097927de8f86e67d0fdb7e0
+SHA1: abec2f6e51edabdb079776ed6b35a6ae893443c8
+SHA256: 9b67157c84bf3aa78c609eb1431942d9e3733f74acf67046e3577eb9b84c45af
+SHA512: 35ac8f3c6545b74a9cfffce8c5552afd7647ed176d185a7e8f5f349cb655e5688c2301f1c6e09890b34ab2a92d0eb0203139160751a86a6ec3002ad1f08a225b
+Homepage: http://ros.org/wiki/industrial_deprecated
+Description: The Industrial deprecated package contains nodes, launch files, etc...
+ that are slated for deprecation. This package is the last place something will end up before being deleted. If you are missing a package/node and find it's contents here, then you should consider a replacement.
+
+Package: ros-one-industrial-io-client-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 1.7.0-10-ge221764-2023.06.28.13.06
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-one-industrial-io-client
+Maintainer: FZI Karlsruhe <fzi@fzi.de>
+Installed-Size: 3679
+Depends: ros-one-industrial-io-client (= 1.7.0-10-ge221764-2023.06.28.13.06)
+Filename: ./ros-one-industrial-io-client-dbgsym_1.7.0-10-ge221764-2023.06.28.13.06_amd64.ddeb
+Size: 1695802
+MD5sum: e18d442eaed2661ededde5407d1d352e
+SHA1: 1c111eafb1e3fe23f4e0bf2f941eb9f24b5d7c13
+SHA256: c3b97581af10a524246713f189ec535fd30801b487d423cf7642cc9b9d733b25
+SHA512: e92d51c505fdc5afc4dbb08e0f3f3619c5f617161e8ed7c98280371637aff13c334d4bb677974b9588c5eaa75126bb77b4d2ca322b7b89c9871203e72e11f84c
+Description: debug symbols for ros-one-industrial-io-client
+Build-Ids: 168fa7a5c170e40c8aaa517a4cec80e958bccdf9 2aaa48a861458868603d57eda85c061b5f0f3660 51e9fc81cc00f50aafeb67e9ec284b30d0377315 9ed1982ef76f3361b133a4f93c1a128e1feb2b1c fc26cf3246477a4121b69ab000247b4aa66fc88f
+
+Package: ros-one-industrial-io-client
+Architecture: amd64
+Version: 1.7.0-10-ge221764-2023.06.28.13.06
+Priority: optional
+Section: misc
+Maintainer: FZI Karlsruhe <fzi@fzi.de>
+Installed-Size: 758
+Depends: libboost-chrono1.74.0 (>= 1.74.0), libboost-thread1.74.0 (>= 1.74.0), libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), ros-one-actionlib, ros-one-actionlib-msgs, ros-one-control-msgs, ros-one-industrial-msgs, ros-one-industrial-utils, ros-one-roscpp, ros-one-sensor-msgs, ros-one-simple-message, ros-one-std-msgs, ros-one-std-srvs, ros-one-trajectory-msgs, ros-one-urdf
+Filename: ./ros-one-industrial-io-client_1.7.0-10-ge221764-2023.06.28.13.06_amd64.deb
+Size: 95218
+MD5sum: 3258dd2df6ef06637adeb658d73c32c2
+SHA1: 5d977441ba2ae05232bf483ab1d790d4ae29bb35
+SHA256: 5f3a02fe09cf4e329468034631f77d2bdf62086f3d4e13f67f69aacd7dbd5b11
+SHA512: 0cb77fa04564e785fe6ac9f9ca3c6f24a2ba19032867c827fd004cb6b575ff90268e1fdf4f3395d37d720265422280007c729269f1889e4f0807e70469df1a3a
+Description: Industrial io client
+
+Package: ros-one-industrial-msgs
+Architecture: amd64
+Version: 1.7.0-10-ge221764-2023.06.28.12.58
+Priority: optional
+Section: misc
+Maintainer: G.A. vd. Hoorn (TU Delft Robotics Institute) <g.a.vanderhoorn@tudelft.nl>
+Installed-Size: 1142
+Depends: ros-one-message-runtime, ros-one-std-msgs, ros-one-trajectory-msgs
+Filename: ./ros-one-industrial-msgs_1.7.0-10-ge221764-2023.06.28.12.58_amd64.deb
+Size: 76780
+MD5sum: ff6dab944ba49835186b3ccffc066cbd
+SHA1: fc347bfbc0bf79cf789810566355ecc9e40de01d
+SHA256: 29b6aefd6b7222ffc38f84999f27379c2e719d7f759d21c0aa393a689b20ae86
+SHA512: a1b02a98ba7a049344a7c135ecdf6c5ead115700add6662f900ae4fa9c247bb03d38f821aeb8aaa1c68792fa68f524eb20b16a8495712e42978116ceaab6da61
+Homepage: http://ros.org/wiki/industrial_msg
+Description: The industrial message package containes industrial specific messages definitions.
+ This package is part of the ROS-Industrial program.
+
+Package: ros-one-industrial-robot-client-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 1.7.0-10-ge221764-2023.06.28.13.07
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-one-industrial-robot-client
+Maintainer: G.A. vd. Hoorn (TU Delft Robotics Institute) <g.a.vanderhoorn@tudelft.nl>
+Installed-Size: 5669
+Depends: ros-one-industrial-robot-client (= 1.7.0-10-ge221764-2023.06.28.13.07)
+Filename: ./ros-one-industrial-robot-client-dbgsym_1.7.0-10-ge221764-2023.06.28.13.07_amd64.ddeb
+Size: 4496378
+MD5sum: 68553b000a3dd932290b334a874cb115
+SHA1: 17b75a4bbe004d6ff5c81fcd0bf32e67afa4eb6b
+SHA256: ab491d599a6c73b4abfc2e59c42598f02d9beedf1861e6ef38206a3bb362b21b
+SHA512: c6921a05f20f6087c364fbe760ef996a8865ccc9a978f51e36cc6a54ef6ab4e341650fe802078ef1d10e7b8f941d7eb25c9ce537d86408273ccacdf83be66efb
+Description: debug symbols for ros-one-industrial-robot-client
+Build-Ids: 0eeeb8f83874265dbabb5291e3d416183bdae6c2 1323ea9d72e3b701e2bde9cadeb650d95e0cc2df 23e0c3527f58627f3a64649c2f31694c8588e72c 260e5567f530b6e7bb3dc2e6f873e87c02b114ec 45836be561c47b6dc87e5cf487e760cca75ea9ff 496bd4ad35cdd9b751d9da333fff2213a3050e25 6bf4705740cd0d69ea86241155e994c4e4b4e8f6 c47c1a5d6f3e83355bc8b47f085be720f91b5279 de5bcb520e9964fcf619650c33a9a6d3ef5148b9 e6c578eabb2276daeb080c1c427a8b3811c446fa
+
+Package: ros-one-industrial-robot-client
+Architecture: amd64
+Version: 1.7.0-10-ge221764-2023.06.28.13.07
+Priority: optional
+Section: misc
+Maintainer: G.A. vd. Hoorn (TU Delft Robotics Institute) <g.a.vanderhoorn@tudelft.nl>
+Installed-Size: 1119
+Depends: libboost-thread1.74.0 (>= 1.74.0), libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), ros-one-actionlib, ros-one-actionlib-msgs, ros-one-control-msgs, ros-one-industrial-msgs, ros-one-industrial-utils, ros-one-robot-state-publisher, ros-one-roscpp, ros-one-sensor-msgs, ros-one-simple-message, ros-one-std-msgs, ros-one-trajectory-msgs, ros-one-urdf
+Filename: ./ros-one-industrial-robot-client_1.7.0-10-ge221764-2023.06.28.13.07_amd64.deb
+Size: 185380
+MD5sum: 79a5e1a84096f7fad673bb8fdb35ca9a
+SHA1: b56721b50f41bd53d07084ad8a86a5d8fd9efc00
+SHA256: d902dbbfce5bfb085211592061f397717d408088f9d896d02c62101f267a12ac
+SHA512: b3847a1d646e792799bd555f9ae54d78c36442abdcd4125d2ec7617c47ebd905a037aa58fa32cd124b88a88df8a568c3ebf06cbf2d9c64615e2ffad841f3e32d
+Homepage: http://ros.org/wiki/industrial_robot_client
+Description: industrial robot client contains generic clients for connecting to industrial robot controllers with servers that adhere to the simple message protocol.
+
+Package: ros-one-industrial-robot-simulator
+Architecture: amd64
+Version: 1.7.0-10-ge221764-2023.06.28.12.59
+Priority: optional
+Section: misc
+Maintainer: G.A. vd. Hoorn (TU Delft Robotics Institute) <g.a.vanderhoorn@tudelft.nl>
+Installed-Size: 53
+Depends: python3-rospkg, ros-one-control-msgs, ros-one-industrial-msgs, ros-one-industrial-robot-client, ros-one-rospy, ros-one-sensor-msgs, ros-one-trajectory-msgs
+Filename: ./ros-one-industrial-robot-simulator_1.7.0-10-ge221764-2023.06.28.12.59_amd64.deb
+Size: 12166
+MD5sum: 35387b4b27cba344b098429c6fd78844
+SHA1: 59339b0368e1a76842ed7e2c8cb6cff461e20c1e
+SHA256: acc68b3af6351cb5541617525e14e0e425c491d59682f9f27668ee484b0fc28e
+SHA512: 0ef5f461d8bd0c0b957580aaf7a5a84a5560e76d9680d4a25d4d6eea3617203a5afab5b287b33abd446024e57f41f82136fc46e4fa5b28e8e413cef86bda2871
+Homepage: http://ros.org/wiki/industrial_robot_simulator
+Description: The industrial robot simulator is a stand in for industrial robot driver node(s).
+ It adheres to the driver specification for industrial robot controllers.
+
+Package: ros-one-industrial-robot-status-controller-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 0.1.2-5-g195db5b-2023.06.28.13.00
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-one-industrial-robot-status-controller
+Maintainer: G.A. vd. Hoorn (TU Delft Robotics Institute) <g.a.vanderhoorn@tudelft.nl>
+Installed-Size: 539
+Depends: ros-one-industrial-robot-status-controller (= 0.1.2-5-g195db5b-2023.06.28.13.00)
+Filename: ./ros-one-industrial-robot-status-controller-dbgsym_0.1.2-5-g195db5b-2023.06.28.13.00_amd64.ddeb
+Size: 501492
+MD5sum: aa0ec1d1a03f3881ba8293add03e7d73
+SHA1: 6f62f5a59c4739c83aff24fdd830b1752d33ff1d
+SHA256: 0f3d2fa01d78ef0b60e6f62e77ccb227be80eaa37912eec2d0bff30e2d628069
+SHA512: 23fc8229c13d75e0bbff691996334902f235192a278eb07149fec5579137049c388b9d07c0004524ca028baad7475c1844aa6feb96f6ce2441eb5c4921aacf86
+Description: debug symbols for ros-one-industrial-robot-status-controller
+Build-Ids: 97b186c328f777378915fabc56b997934b29c1c5
+
+Package: ros-one-industrial-robot-status-controller
+Architecture: amd64
+Version: 0.1.2-5-g195db5b-2023.06.28.13.00
+Priority: optional
+Section: misc
+Maintainer: G.A. vd. Hoorn (TU Delft Robotics Institute) <g.a.vanderhoorn@tudelft.nl>
+Installed-Size: 129
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 9), ros-one-controller-interface, ros-one-hardware-interface, ros-one-industrial-msgs, ros-one-pluginlib, ros-one-realtime-tools
+Filename: ./ros-one-industrial-robot-status-controller_0.1.2-5-g195db5b-2023.06.28.13.00_amd64.deb
+Size: 39822
+MD5sum: bdbd412b16144c756985a50b033b6b6c
+SHA1: 0955ed839ec90579bc314f1bffa1220d1dd13e53
+SHA256: 8cbaaafc7cffc1e981b9307649904682b3604ad4ee86f6192711fbcab80ba92f
+SHA512: 50068579bb1aaf7788909007a5989c6923bc89d341aafe51c6a815ba811a52d75b32f1ac974a68b9e23f14e89595529d0a168a629877c1ed594edce9b7ce1265
+Description: A ros_control controller that reports robot status using the ROS-Industrial RobotStatus message.
+
+Package: ros-one-industrial-robot-status-interface
+Architecture: amd64
+Version: 0.1.2-5-g195db5b-2023.06.28.12.59
+Priority: optional
+Section: misc
+Maintainer: G.A. vd. Hoorn (TU Delft Robotics Institute) <g.a.vanderhoorn@tudelft.nl>
+Installed-Size: 33
+Depends: ros-one-hardware-interface
+Filename: ./ros-one-industrial-robot-status-interface_0.1.2-5-g195db5b-2023.06.28.12.59_amd64.deb
+Size: 5638
+MD5sum: ccca98ddd8a32205c5d5d1a18acfabcb
+SHA1: bbd0340c19ad826328e7ff3e11ea27f3d4df29c3
+SHA256: 986538004bae8114773b7ae4a127f552a35ed5f026005b9a937ee7d5b92c3bfa
+SHA512: bafc7a7ee6a203c10efa74ffa90ee490ec26ed0054dcf55a3943f596e964295ec9684f5e86e7bf20b40a8a71fa092b0f0d525d4d2bd609935fa56055d5260730
+Description: Exposes ROS-Industrial's RobotStatus info from hardware_interfaces for consumption by ros_control controllers.
+
+Package: ros-one-industrial-utils-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 1.7.0-10-ge221764-2023.06.28.13.01
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-one-industrial-utils
+Maintainer: G.A. vd. Hoorn (TU Delft Robotics Institute) <g.a.vanderhoorn@tudelft.nl>
+Installed-Size: 474
+Depends: ros-one-industrial-utils (= 1.7.0-10-ge221764-2023.06.28.13.01)
+Filename: ./ros-one-industrial-utils-dbgsym_1.7.0-10-ge221764-2023.06.28.13.01_amd64.ddeb
+Size: 451216
+MD5sum: 6c9e6cf9d4c7896443231548dd7757f8
+SHA1: a198e640ab940af34a67afe7b09dd71e1a136a21
+SHA256: 6c47bfb805b830a3a0409fb5d69faf62bb846d21dbe7ee8af305756ae2e89744
+SHA512: a4d92c31b546fe99a62de80dcbc8bfb5be9468351d61d79804056b7eb31451013cf0a73ce2fe6984f93c8682972757e936057c5a88f7e4640493c4f49f6c9a2d
+Description: debug symbols for ros-one-industrial-utils
+Build-Ids: ac4ea173f413418d23e0a650c2b723f86bac80f9
+
+Package: ros-one-industrial-utils
+Architecture: amd64
+Version: 1.7.0-10-ge221764-2023.06.28.13.01
+Priority: optional
+Section: misc
+Maintainer: G.A. vd. Hoorn (TU Delft Robotics Institute) <g.a.vanderhoorn@tudelft.nl>
+Installed-Size: 110
+Depends: libc6 (>= 2.32), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 5.2), liburdfdom-world3.0 (>= 3.0.1), ros-one-roscpp, ros-one-urdf
+Filename: ./ros-one-industrial-utils_1.7.0-10-ge221764-2023.06.28.13.01_amd64.deb
+Size: 32444
+MD5sum: 5bb33f85f19c2397a1d7f5d894f55f77
+SHA1: 1f40db636ee87d1d34235cdcc4d8b20ee48f1c5f
+SHA256: 99e1de1fbfb0fa120c5018b62ce3a2cf4deac4480c7f8329e06e2912c733c938
+SHA512: 6d8b75d6c53c5d6142069e454b541f379546eff014666028a0bff9e470d7162d3980dc54ff6bd44305f2dfc7b77bf36e7f60d9798515276c483b95e8ed6e0e0f
+Homepage: http://ros.org/wiki/industrial_utils
+Description: Industrial utils is a library package that captures common funcitonality for the ROS-Industrial distribution.
+
+Package: ros-one-simple-message-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 1.7.0-10-ge221764-2023.06.28.13.02
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-one-simple-message
+Maintainer: G.A. vd. Hoorn (TU Delft Robotics Institute) <g.a.vanderhoorn@tudelft.nl>
+Installed-Size: 6669
+Depends: ros-one-simple-message (= 1.7.0-10-ge221764-2023.06.28.13.02)
+Filename: ./ros-one-simple-message-dbgsym_1.7.0-10-ge221764-2023.06.28.13.02_amd64.ddeb
+Size: 6153224
+MD5sum: 7c95e4ad1f6ec73e10c967237b915121
+SHA1: b49cba94877217af89775548fafaf1a3ed6bf7eb
+SHA256: 4945717525adde71865cbb1188a1e96243891f33f742332901899d78614cdae1
+SHA512: 714f43fd65de6a603ad2bfdee3037700cc7ac8c70e36cdb79130ac95f72e894633f4de2af1a2dc845c33b6d56c2bff7986e598d55fda7d1aa5b49e6f72879c22
+Description: debug symbols for ros-one-simple-message
+Build-Ids: 1b442d01ab5510cd03a01b0e6665ee129e39d464 8aa6ee49afb47f4f5c9ab67067f544b91a4c4eba 927508598c897bb1ee8e206317b648b2438a2740 b81b80beb84d6e4a6069a8e67c758a5b903e6b03
+
+Package: ros-one-simple-message
+Architecture: amd64
+Version: 1.7.0-10-ge221764-2023.06.28.13.02
+Priority: optional
+Section: misc
+Maintainer: G.A. vd. Hoorn (TU Delft Robotics Institute) <g.a.vanderhoorn@tudelft.nl>
+Installed-Size: 1040
+Depends: libc6 (>= 2.15), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), ros-one-industrial-msgs, ros-one-roscpp
+Filename: ./ros-one-simple-message_1.7.0-10-ge221764-2023.06.28.13.02_amd64.deb
+Size: 149774
+MD5sum: 1f89af8d41c3f9e6449e94c40f86292d
+SHA1: f09ba0ddfeb8c95ab12f732fcbae94af8ba18bda
+SHA256: 7f50782d8f3a2f551d7e9c23ea9523b4fb13f0c9df14dc3d9b7cda317dc693a6
+SHA512: 772786d7d3539517b0ec83bda93a950612993e349d8760e9493b16b5ba34c7d18cbf9784a594dd1832ce4077b42da59a95f6d083f896b45b5aebb488c70deac6
+Homepage: http://ros.org/wiki/simple_message
+Description: simple_message defines a simple messaging connection and protocol for communicating with an industrial robot controller.
+ Additional handler and manager classes are included for handling connection limited systems. This package is part of the ROS-Industrial program.
+

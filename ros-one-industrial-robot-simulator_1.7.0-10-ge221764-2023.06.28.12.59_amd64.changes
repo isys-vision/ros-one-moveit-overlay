@@ -1,0 +1,29 @@
+Format: 1.8
+Date: Thu, 19 Sep 2019 00:00:00 -0000
+Source: ros-one-industrial-robot-simulator
+Binary: ros-one-industrial-robot-simulator
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.7.0-10-ge221764-2023.06.28.12.59
+Distribution: jammy
+Urgency: high
+Maintainer: G.A. vd. Hoorn (TU Delft Robotics Institute) <g.a.vanderhoorn@tudelft.nl>
+Changed-By: G.A. vd. Hoorn (TU Delft Robotics Institute) <g.a.vanderhoorn@tudelft.nl>
+Description:
+ ros-one-industrial-robot-simulator - The industrial robot simulator is a stand in for industrial robot
+Changes:
+ ros-one-industrial-robot-simulator (1.7.0-10-ge221764-2023.06.28.12.59) jammy; urgency=high
+ .
+   * Updated all package xml files to version 2 (#232 <https://github.com/ros-industrial/industrial_core/issues/232>)
+   * all: update maintainer email addresses (#222 <https://github.com/ros-industrial/industrial_core/issues/222>)
+   * manually revert commit 40fa0dae (#234 <https://github.com/ros-industrial/industrial_core/issues/234>)
+   * Contributors: Alexis0301, Jeremy Zoss, Jorge Nicho, gavanderhoorn
+Checksums-Sha1:
+ 9f7986973b8197228567a4e26383c5e4c721d380 12264 ros-one-industrial-robot-simulator_1.7.0-10-ge221764-2023.06.28.12.59_amd64.buildinfo
+ 59339b0368e1a76842ed7e2c8cb6cff461e20c1e 12166 ros-one-industrial-robot-simulator_1.7.0-10-ge221764-2023.06.28.12.59_amd64.deb
+Checksums-Sha256:
+ 9b76004ce57f37b013180d55d9557384900d0ab60f97855a5cb6be01b2e4a505 12264 ros-one-industrial-robot-simulator_1.7.0-10-ge221764-2023.06.28.12.59_amd64.buildinfo
+ acc68b3af6351cb5541617525e14e0e425c491d59682f9f27668ee484b0fc28e 12166 ros-one-industrial-robot-simulator_1.7.0-10-ge221764-2023.06.28.12.59_amd64.deb
+Files:
+ 4944f07ed0ec01cbf2f602335d4c3e51 12264 misc optional ros-one-industrial-robot-simulator_1.7.0-10-ge221764-2023.06.28.12.59_amd64.buildinfo
+ 35387b4b27cba344b098429c6fd78844 12166 misc optional ros-one-industrial-robot-simulator_1.7.0-10-ge221764-2023.06.28.12.59_amd64.deb

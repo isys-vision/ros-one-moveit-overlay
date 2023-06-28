@@ -1,0 +1,9 @@
+repositories:
+  industrial_core:
+    type: git
+    url: https://github.com/isys-vision/industrial_core.git
+    version: e2217646268365d24f50151fe475326e9bc01ca9
+  industrial_robot_status_controller:
+    type: git
+    url: https://github.com/ros-o/industrial_robot_status_controller.git
+    version: 195db5b4dba88efb9e44681758dab1e318044ac2

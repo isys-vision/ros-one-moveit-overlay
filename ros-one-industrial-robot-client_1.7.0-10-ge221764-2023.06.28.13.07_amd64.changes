@@ -1,0 +1,33 @@
+Format: 1.8
+Date: Thu, 19 Sep 2019 00:00:00 -0000
+Source: ros-one-industrial-robot-client
+Binary: ros-one-industrial-robot-client
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.7.0-10-ge221764-2023.06.28.13.07
+Distribution: jammy
+Urgency: high
+Maintainer: G.A. vd. Hoorn (TU Delft Robotics Institute) <g.a.vanderhoorn@tudelft.nl>
+Changed-By: G.A. vd. Hoorn (TU Delft Robotics Institute) <g.a.vanderhoorn@tudelft.nl>
+Description:
+ ros-one-industrial-robot-client - industrial robot client contains generic clients for connecting t
+Changes:
+ ros-one-industrial-robot-client (1.7.0-10-ge221764-2023.06.28.13.07) jammy; urgency=high
+ .
+   * Updated all package xml files to version 2 (#232 <https://github.com/ros-industrial/industrial_core/issues/232>)
+   * all: update maintainer email addresses (#222 <https://github.com/ros-industrial/industrial_core/issues/222>)
+   * Add namespacing to all ``joint_trajectory_action`` log messages (#192 <https://github.com/ros-industrial/industrial_core/issues/192>)
+   * Correct off-by-one on debug output (#229 <https://github.com/ros-industrial/industrial_core/issues/229>)
+   * Contributors: Dave Coleman, Gonzalo Casas, Jeremy Zoss, Jorge Nicho, gavanderhoorn
+Checksums-Sha1:
+ 17b75a4bbe004d6ff5c81fcd0bf32e67afa4eb6b 4496378 ros-one-industrial-robot-client-dbgsym_1.7.0-10-ge221764-2023.06.28.13.07_amd64.ddeb
+ d65f5e367c8bd298203b8f72f90218bc83105f3e 15175 ros-one-industrial-robot-client_1.7.0-10-ge221764-2023.06.28.13.07_amd64.buildinfo
+ b56721b50f41bd53d07084ad8a86a5d8fd9efc00 185380 ros-one-industrial-robot-client_1.7.0-10-ge221764-2023.06.28.13.07_amd64.deb
+Checksums-Sha256:
+ ab491d599a6c73b4abfc2e59c42598f02d9beedf1861e6ef38206a3bb362b21b 4496378 ros-one-industrial-robot-client-dbgsym_1.7.0-10-ge221764-2023.06.28.13.07_amd64.ddeb
+ d4a9231a79643b182bde318151dedf5dbc0ea6a4b1a95e47ae6c4890b2ba0c6f 15175 ros-one-industrial-robot-client_1.7.0-10-ge221764-2023.06.28.13.07_amd64.buildinfo
+ d902dbbfce5bfb085211592061f397717d408088f9d896d02c62101f267a12ac 185380 ros-one-industrial-robot-client_1.7.0-10-ge221764-2023.06.28.13.07_amd64.deb
+Files:
+ 68553b000a3dd932290b334a874cb115 4496378 debug optional ros-one-industrial-robot-client-dbgsym_1.7.0-10-ge221764-2023.06.28.13.07_amd64.ddeb
+ 1c776e77041c55daf6ae8b730e7cb369 15175 misc optional ros-one-industrial-robot-client_1.7.0-10-ge221764-2023.06.28.13.07_amd64.buildinfo
+ 79a5e1a84096f7fad673bb8fdb35ca9a 185380 misc optional ros-one-industrial-robot-client_1.7.0-10-ge221764-2023.06.28.13.07_amd64.deb

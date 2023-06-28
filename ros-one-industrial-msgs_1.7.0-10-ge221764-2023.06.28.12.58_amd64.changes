@@ -1,0 +1,29 @@
+Format: 1.8
+Date: Thu, 19 Sep 2019 00:00:00 -0000
+Source: ros-one-industrial-msgs
+Binary: ros-one-industrial-msgs
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.7.0-10-ge221764-2023.06.28.12.58
+Distribution: jammy
+Urgency: high
+Maintainer: G.A. vd. Hoorn (TU Delft Robotics Institute) <g.a.vanderhoorn@tudelft.nl>
+Changed-By: G.A. vd. Hoorn (TU Delft Robotics Institute) <g.a.vanderhoorn@tudelft.nl>
+Description:
+ ros-one-industrial-msgs - The industrial message package containes industrial specific mess
+Changes:
+ ros-one-industrial-msgs (1.7.0-10-ge221764-2023.06.28.12.58) jammy; urgency=high
+ .
+   * Updated all package xml files to version 2 (#232 <https://github.com/ros-industrial/industrial_core/issues/232>)
+   * all: update maintainer email addresses (#222 <https://github.com/ros-industrial/industrial_core/issues/222>)
+   * remove unneeded genmsg dependency (#223 <https://github.com/ros-industrial/industrial_core/issues/223>)
+   * Contributors: Jeremy Zoss, Jorge Nicho, gavanderhoorn
+Checksums-Sha1:
+ 25f37a75a490682a5b7c82653954e60aa502141f 9583 ros-one-industrial-msgs_1.7.0-10-ge221764-2023.06.28.12.58_amd64.buildinfo
+ fc347bfbc0bf79cf789810566355ecc9e40de01d 76780 ros-one-industrial-msgs_1.7.0-10-ge221764-2023.06.28.12.58_amd64.deb
+Checksums-Sha256:
+ b105ae32edc61aeeb211302880132da2b8d6e5f0227a7c7b103582c8baba72a1 9583 ros-one-industrial-msgs_1.7.0-10-ge221764-2023.06.28.12.58_amd64.buildinfo
+ 29b6aefd6b7222ffc38f84999f27379c2e719d7f759d21c0aa393a689b20ae86 76780 ros-one-industrial-msgs_1.7.0-10-ge221764-2023.06.28.12.58_amd64.deb
+Files:
+ a57f6cbdb507065279bbd00477fc87f0 9583 misc optional ros-one-industrial-msgs_1.7.0-10-ge221764-2023.06.28.12.58_amd64.buildinfo
+ ff6dab944ba49835186b3ccffc066cbd 76780 misc optional ros-one-industrial-msgs_1.7.0-10-ge221764-2023.06.28.12.58_amd64.deb

@@ -1,0 +1,33 @@
+industrial_core:
+  ubuntu:
+  - ros-one-industrial-core
+industrial_deprecated:
+  ubuntu:
+  - ros-one-industrial-deprecated
+industrial_msgs:
+  ubuntu:
+  - ros-one-industrial-msgs
+industrial_robot_simulator:
+  ubuntu:
+  - ros-one-industrial-robot-simulator
+industrial_robot_status_interface:
+  ubuntu:
+  - ros-one-industrial-robot-status-interface
+industrial_robot_status_controller:
+  ubuntu:
+  - ros-one-industrial-robot-status-controller
+industrial_trajectory_filters:
+  ubuntu:
+  - ros-one-industrial-trajectory-filters
+industrial_utils:
+  ubuntu:
+  - ros-one-industrial-utils
+simple_message:
+  ubuntu:
+  - ros-one-simple-message
+industrial_io_client:
+  ubuntu:
+  - ros-one-industrial-io-client
+industrial_robot_client:
+  ubuntu:
+  - ros-one-industrial-robot-client

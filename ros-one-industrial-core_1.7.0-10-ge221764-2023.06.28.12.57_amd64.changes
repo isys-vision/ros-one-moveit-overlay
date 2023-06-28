@@ -1,0 +1,28 @@
+Format: 1.8
+Date: Thu, 19 Sep 2019 00:00:00 -0000
+Source: ros-one-industrial-core
+Binary: ros-one-industrial-core
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.7.0-10-ge221764-2023.06.28.12.57
+Distribution: jammy
+Urgency: high
+Maintainer: G.A. vd. Hoorn (TU Delft Robotics Institute) <g.a.vanderhoorn@tudelft.nl>
+Changed-By: G.A. vd. Hoorn (TU Delft Robotics Institute) <g.a.vanderhoorn@tudelft.nl>
+Description:
+ ros-one-industrial-core - ROS-Industrial core stack contains packages and libraries for sup
+Changes:
+ ros-one-industrial-core (1.7.0-10-ge221764-2023.06.28.12.57) jammy; urgency=high
+ .
+   * Updated all package xml files to version 2 (#232 <https://github.com/ros-industrial/industrial_core/issues/232>)
+   * all: update maintainer email addresses (#222 <https://github.com/ros-industrial/industrial_core/issues/222>)
+   * Contributors: Jeremy Zoss, Jorge Nicho, gavanderhoorn
+Checksums-Sha1:
+ 1def8e62f3c8319a3ff1f147955d9a7986d25263 7786 ros-one-industrial-core_1.7.0-10-ge221764-2023.06.28.12.57_amd64.buildinfo
+ 6778910bb2f48cbcba39faaaa2c868b38c4c368d 2322 ros-one-industrial-core_1.7.0-10-ge221764-2023.06.28.12.57_amd64.deb
+Checksums-Sha256:
+ abea116f365dbfb8af015df889a7b90e110978c1fe6a06352c3cc9dc4e4f7f0e 7786 ros-one-industrial-core_1.7.0-10-ge221764-2023.06.28.12.57_amd64.buildinfo
+ e08f2a0e05c3ddc500c16a732966ad0e73d871eb10180972fff0a93480a8d314 2322 ros-one-industrial-core_1.7.0-10-ge221764-2023.06.28.12.57_amd64.deb
+Files:
+ be2bc1e7c519f191d4ffb395befe039a 7786 misc optional ros-one-industrial-core_1.7.0-10-ge221764-2023.06.28.12.57_amd64.buildinfo
+ be5d586be622746e9d99b378f2d9a5ac 2322 misc optional ros-one-industrial-core_1.7.0-10-ge221764-2023.06.28.12.57_amd64.deb
