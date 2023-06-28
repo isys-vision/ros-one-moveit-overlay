@@ -31,7 +31,7 @@ jobs:
       - name: "Artifacts"
         uses: actions/upload-artifact@v3
         with:
-            name: ros-one-resource-retriever
+            name: ros-one-industrial
             path: |
               /home/runner/apt_repo/*.deb
               /home/runner/apt_repo/*.ddeb
